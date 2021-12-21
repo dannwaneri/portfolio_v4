@@ -13,7 +13,7 @@ font-family: var(--fonts-serif);
 
 
 export const TitleContainer = styled.p`
-margin-top: 12px;
+margin-top: 10px;
 color: var(--colors-gray11);
 font-weight: 400;
 font-size: 15px;

@@ -210,6 +210,9 @@ main{
     padding-top: 120px;
     padding-bottom: 120px;
     margin: 0px auto;
+    @media (max-width: 720px){
+    padding-top: 40px;
+}
 }
 `;
 

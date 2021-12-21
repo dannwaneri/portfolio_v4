@@ -19,6 +19,9 @@ export const FooterContainer = styled.footer`
     z-index: 10;
     opacity: 1;
     transform: translate(-50%, -50%) translateY(0);
+    @media (max-width: 720px) {
+    width: calc(100% - 64px);
+}
 }
 `;
 
@@ -30,4 +33,8 @@ export const OptionsContainer = styled.div`
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
+    @media (max-width: 720px){
+    height: 150px;
+    overflow: auto hidden;
+}
 `;
