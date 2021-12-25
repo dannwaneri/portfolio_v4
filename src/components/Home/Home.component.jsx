@@ -3,9 +3,9 @@ import { NameContainer,TitleContainer,LineContainer} from "./home.style";
 const Home = () => (
     <div style={{opacity: 1}}>
     <NameContainer>Penuel Nwaneri</NameContainer>
-    <TitleContainer>Software Developer  open to job opportunities</TitleContainer>
+    <TitleContainer>Software Developer  open to both Front-end and Back-end developer roles</TitleContainer>
     <LineContainer/>
-    <TitleContainer>I care deeply about users, performance, accessibility, and having things be functional. I am especially interested in solving complex problems through data-driven processes that translate business objectives into solutions.If this sounds good to you,Feel free to throw me an email!</TitleContainer>
+    <TitleContainer>I care deeply about users, performance, accessibility, and having things be functional. I have an extensive experience working with techologies such as React,Node.js,Express.js,Graphql etc. Generally, i'm flexible and will work with any tool. Besides, i relish any opportunity to get my hands on a new experience!</TitleContainer>
     </div>
 )
 
