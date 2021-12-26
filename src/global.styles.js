@@ -177,7 +177,6 @@ svg{
     width: 50%;
     height: 50%;
     pointer-events: none;
-    transform-origin: unset !important; 
 }
 button{
     cursor: pointer;
