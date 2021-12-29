@@ -18,16 +18,23 @@ const pathVariants = {
   play:{opacity: 1,transition:"opacity 200ms ease 0ms",stroke:"var(--colors-gray11)"}
 }
 
+const buttonVariants = {
+  play:{transform:"translateY(-43) translateZ(0)"},
+  stop:{transform:"translateY(0) translateZ(0)"}
+}
 const Footer = () => {
 
-  const [isClicked, setIsClicked] = useState( () =>{
+  const [isClicked, setIsClicked] = useState( 
+    
+    () => {
 
   const saved = localStorage.getItem("isClicked");
 
   const initialValue = JSON.parse(saved);
   return initialValue || false;
 });
-  const [play, { stop }] = useSound(boopSfx,
+  
+const [play, { stop }] = useSound(boopSfx,
     { volume: 0.9 }
   );
 
@@ -46,7 +53,11 @@ return (
           background: "var(--colors-lowContrast)",
         }}
         >
-      <motion.button animate={{height:48,width:48,transform:"none"}} initial={{height:48,width:48,transform:"translateY(-2.33333px) translateZ(0px)"}} onClick={() => isClicked ? play():stop()}>
+      <motion.button  
+        variants={buttonVariants} animate="play"
+        initial="stop"
+        transition={{type: "spring",delay: 0.5}}
+      onClick={() => isClicked ? play():stop()}>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
           <path opacity="0.25" d="M20 18.8V6.63998L13.6514 2.81501L13.6514 2.815C13.0511 2.45333 12.751 2.2725 12.4304 2.20186C12.1469 2.13938 11.8531 2.13938 11.5696 2.20186C11.249 2.2725 10.9489 2.45334 10.3486 2.81501L4 6.64001V18.8C4 19.9201 4 20.4802 4.21799 20.908C4.40973 21.2843 4.71569 21.5903 5.09202 21.782C5.51984 22 6.0799 22 7.2 22H16.8C17.9201 22 18.4802 22 18.908 21.782C19.2843 21.5903 19.5903 21.2843 19.782 20.908C20 20.4802 20 19.9201 20 18.8Z" fill="var(--colors-gray10)"></path><path fillRule="evenodd" clipRule="evenodd" d="M1.14251 9.5145C1.42665 9.98808 2.04091 10.1416 2.51449 9.85749L12 4.16619L21.4855 9.85749C21.9591 10.1416 22.5733 9.98808 22.8575 9.5145C23.1416 9.04092 22.9881 8.42666 22.5145 8.14251L13.029 2.45121C12.3956 2.07119 11.6044 2.07119 10.971 2.45121L1.4855 8.14251C1.01192 8.42666 0.858357 9.04092 1.14251 9.5145Z" fill="var(--colors-gray10)"></path><path d="M9 16C9 14.3431 10.3431 13 12 13C13.6569 13 15 14.3431 15 16V22H9V16Z" fill="var(--colors-gray10)"></path>
         </svg>
@@ -151,7 +162,7 @@ return (
       </svg>
       </motion.button>
       </Tooltip>
-      <Tooltip label=" Enable Sound"
+      <Tooltip label= {isClicked? " Disable Sound":"Enable Sound"}
       style={{
         borderRadius: "5px",
         border: "none",

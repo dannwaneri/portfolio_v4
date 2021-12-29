@@ -197,7 +197,6 @@ button{
     color: var(--colors-gray10);
     width: 48px;
     height: 48px;
-    transform: none;
 }
 main{
    display: flex;
