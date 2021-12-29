@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useState,useEffect} from 'react';
 import Tooltip,{useTooltip,TooltipPopup} from '@reach/tooltip';
 import '@reach/tooltip/styles.css';
 import useSound from "use-sound";
@@ -20,14 +20,20 @@ const pathVariants = {
 
 const Footer = () => {
 
-  const [isClicked, setIsClicked] = useState(
-    false
-  );
+  const [isClicked, setIsClicked] = useState( () =>{
 
+  const saved = localStorage.getItem("isClicked");
+
+  const initialValue = JSON.parse(saved);
+  return initialValue || false;
+});
   const [play, { stop }] = useSound(boopSfx,
     { volume: 0.9 }
   );
-  
+
+  useEffect(() => {
+    localStorage.setItem("isClicked", JSON.stringify(isClicked));
+  },[isClicked])
 
 return (
     <FooterContainer>
