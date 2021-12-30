@@ -76,7 +76,7 @@ export const GlobalStyles = createGlobalStyle`
 --transitions-snappy: cubic-bezier(.2, .8, .2, 1);
 }
 
-dark{
+html.dark{
     -webkit-font-smoothing: antialiased;
     --fonts-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     --fonts-serif: Lusitana, serif;
@@ -149,6 +149,10 @@ dark{
     --colors-lowContrast: black;
     --colors-highContrast: white;
 }
+html.theming,
+html.theming *{
+    transform: all 0.2s linear;
+}
 *, ::before, ::after {
   box-sizing: border-box;
     margin: 0;
@@ -197,6 +201,7 @@ button{
     color: var(--colors-gray10);
     width: 48px;
     height: 48px;
+    outline:none;
 }
 main{
    display: flex;

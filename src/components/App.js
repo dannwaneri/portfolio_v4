@@ -8,7 +8,10 @@ import Writing from './Writing/writing.component';
 
 
 
-const  App = () => (
+const  App = () => {
+
+
+return (
     <div className="App">
       <GlobalStyles/>
          <Footer/>
@@ -21,5 +24,5 @@ const  App = () => (
          </main>
     </div>
   );
-
+}
 export default App;

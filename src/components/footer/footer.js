@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react';
-import Tooltip,{useTooltip,TooltipPopup} from '@reach/tooltip';
+import Tooltip from '@reach/tooltip';
 import '@reach/tooltip/styles.css';
 import useSound from "use-sound";
 import boopSfx from "../../sounds/switch-off.mp3";
@@ -23,7 +23,6 @@ const buttonVariants = {
   stop:{transform:"translateY(0) translateZ(0)"}
 }
 const Footer = () => {
-
   const [isClicked, setIsClicked] = useState( 
     
     () => {
@@ -38,7 +37,18 @@ const [play, { stop }] = useSound(boopSfx,
     { volume: 0.9 }
   );
 
-  useEffect(() => {
+  const toggleTheme = () => {
+    document.documentElement.classList.add('theming');
+    document.documentElement.addEventListener('transitionend',() => {
+      if(document.documentElement){
+        document.documentElement.classList.remove('theming');
+}
+  },{once:true});
+    
+    document.documentElement.classList.toggle('dark');
+  };
+
+useEffect(() => {
     localStorage.setItem("isClicked", JSON.stringify(isClicked));
   },[isClicked])
 
@@ -138,7 +148,8 @@ return (
           background: "var(--colors-lowContrast)",
         }}
         >
-      <motion.button onClick={() => isClicked ? play():stop()}>
+      <motion.button 
+      onClick={() => isClicked ? play():stop()}>
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
           <path opacity="0.25" d="M1 6C1 4.34315 2.34315 3 4 3H20C21.6569 3 23 4.34315 23 6V18C23 19.6569 21.6569 21 20 21H4C2.34315 21 1 19.6569 1 18V6Z" fill="var(--colors-gray10)"></path>
           <path fillRule="evenodd" clipRule="evenodd" d="M5.23177 7.35981C5.58534 6.93553 6.2159 6.87821 6.64018 7.23177L11.3598 11.1648C11.7307 11.4738 12.2693 11.4738 12.6402 11.1648L17.3598 7.23177C17.7841 6.87821 18.4147 6.93553 18.7682 7.35981C19.1218 7.78409 19.0645 8.41465 18.6402 8.76822L13.9205 12.7012C12.808 13.6284 11.192 13.6284 10.0794 12.7012L5.35981 8.76822C4.93553 8.41465 4.87821 7.78409 5.23177 7.35981Z" fill="var(--colors-gray10)"></path>
@@ -147,16 +158,18 @@ return (
       </Tooltip>
         </a>
       <hr/>
-      <Tooltip label="Dark Mode"
+      <Tooltip label={isClicked ? "Dark Mode" : "Light Mode"}
       style={{
         borderRadius: "5px",
         border: "none",
         background: "var(--colors-lowContrast)",
       }}
       >
-      <motion.button onClick={() => isClicked ? play():stop()}>
+      <motion.button 
+      onClick={() =>{
+        isClicked ? play():stop();toggleTheme()}}>
         <svg width="48" height="48" viewBox="0 0 24 24" color="var(--colors-gray10)" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor">
-          <mask id="myMask2"><rect x="0" y="0" width="100%" height="100%" fill="white"></rect><circle r="9" fill="black" cx="100%" cy="0%"></circle>
+          <mask id="myMask2"><rect x="0" y="0" width="100%" height="100%" fill="white"></rect><circle  r="9" fill="black" cx="100%" cy="0%"></circle>
           </mask>
           <circle cx="12" cy="12" fill="var(--colors-gray10)" mask="url(#myMask2)" r="5"></circle><g stroke="currentColor" opacity="1"><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></g>
       </svg>
