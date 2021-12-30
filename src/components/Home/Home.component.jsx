@@ -5,7 +5,7 @@ const Home = () => (
     <NameContainer>Penuel Nwaneri</NameContainer>
     <TitleContainer>Software Developer  open to both Front-end and Back-end developer roles</TitleContainer>
     <LineContainer/>
-    <TitleContainer>Cares deeply about users, performance, accessibility, and having things be functional with  React,Node.js,Express.js,Graphql.</TitleContainer>
+    <TitleContainer>He Cares deeply about users, performance, accessibility, and having things be functional.</TitleContainer>
     </div>
 )
 
