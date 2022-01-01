@@ -4,33 +4,6 @@ import {createGlobalStyle} from 'styled-components';
 export const GlobalStyles = createGlobalStyle`
 :root{
 -webkit-font-smoothing: antialiased;
---colors-gray1: hsl(0 0% 99.0%);
---colors-gray2: hsl(0 0% 97.3%);
---colors-gray3: hsl(0 0% 95.1%);
---colors-gray4: hsl(0 0% 93.0%);
---colors-gray5: hsl(0 0% 90.9%);
---colors-gray6: hsl(0 0% 88.7%);
---colors-gray7: hsl(0 0% 85.8%);
---colors-gray8: hsl(0 0% 78.0%);
---colors-gray9: hsl(0 0% 56.1%);
---colors-gray10: hsl(0 0% 52.3%);
---colors-gray11: hsl(0 0% 43.5%);
---colors-gray12: hsl(0 0% 9.0%);
---colors-bg: #FFF;
---colors-lowContrast: #FFFFFF;
---colors-highContrast: black;
---colors-blue1: hsl(206 100% 99.2%);
---colors-blue2: hsl(210 100% 98.0%);
---colors-blue3: hsl(209 100% 96.5%);
---colors-blue4: hsl(210 98.8% 94.0%);
---colors-blue5: hsl(209 95.0% 90.1%);
---colors-blue6: hsl(209 81.2% 84.5%);
---colors-blue7: hsl(208 77.5% 76.9%);
---colors-blue8: hsl(206 81.9% 65.3%);
---colors-blue9: hsl(206 100% 50.0%);
---colors-blue10: hsl(208 100% 47.3%);
---colors-blue11: hsl(211 100% 43.2%);
---colors-blue12: hsl(211 100% 15.0%);
 --fonts-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 --fonts-serif: Lusitana, serif;
 --space-1: 8px;
@@ -76,7 +49,38 @@ export const GlobalStyles = createGlobalStyle`
 --transitions-snappy: cubic-bezier(.2, .8, .2, 1);
 }
 
-html.dark{
+body[data-theme='light']{
+    --colors-gray1: hsl(0 0% 99.0%);
+--colors-gray2: hsl(0 0% 97.3%);
+--colors-gray3: hsl(0 0% 95.1%);
+--colors-gray4: hsl(0 0% 93.0%);
+--colors-gray5: hsl(0 0% 90.9%);
+--colors-gray6: hsl(0 0% 88.7%);
+--colors-gray7: hsl(0 0% 85.8%);
+--colors-gray8: hsl(0 0% 78.0%);
+--colors-gray9: hsl(0 0% 56.1%);
+--colors-gray10: hsl(0 0% 52.3%);
+--colors-gray11: hsl(0 0% 43.5%);
+--colors-gray12: hsl(0 0% 9.0%);
+--colors-bg: #FFF;
+--colors-lowContrast: #FFFFFF;
+--colors-highContrast: black;
+--colors-blue1: hsl(206 100% 99.2%);
+--colors-blue2: hsl(210 100% 98.0%);
+--colors-blue3: hsl(209 100% 96.5%);
+--colors-blue4: hsl(210 98.8% 94.0%);
+--colors-blue5: hsl(209 95.0% 90.1%);
+--colors-blue6: hsl(209 81.2% 84.5%);
+--colors-blue7: hsl(208 77.5% 76.9%);
+--colors-blue8: hsl(206 81.9% 65.3%);
+--colors-blue9: hsl(206 100% 50.0%);
+--colors-blue10: hsl(208 100% 47.3%);
+--colors-blue11: hsl(211 100% 43.2%);
+--colors-blue12: hsl(211 100% 15.0%);
+}
+
+
+body[data-theme='dark']{
     --colors-gray1: hsl(0 0% 8.5%);
     --colors-gray2: hsl(0 0% 11.0%);
     --colors-gray3: hsl(0 0% 13.6%);
@@ -105,10 +109,8 @@ html.dark{
     --colors-lowContrast: black;
     --colors-highContrast: white;
 }
-html.theming,
-html.theming *{
-    transform: all 0.2s linear;
-}
+  
+ 
 *, ::before, ::after {
   box-sizing: border-box;
     margin: 0;

@@ -33,24 +33,27 @@ const Footer = () => {
   return initialValue || false;
 });
   
+const [theme, setTheme] = useState(() => { 
+  
+  const savedTheme = localStorage.getItem("theme");
+  
+  const initialTheme = JSON.parse(savedTheme);
+return initialTheme || 'light'
+});
+
+const nextTheme = theme === 'light' ? 'dark' : 'light'
+
 const [play, { stop }] = useSound(boopSfx,
     { volume: 0.9 }
   );
 
-  const toggleTheme = () => {
-    document.documentElement.classList.add('theming');
-    document.documentElement.addEventListener('transitionend',() => {
-      if(document.documentElement){
-        document.documentElement.classList.remove('theming');
-}
-  },{once:true});
-    
-    document.documentElement.classList.toggle('dark');
-  };
+  
 
 useEffect(() => {
     localStorage.setItem("isClicked", JSON.stringify(isClicked));
-  },[isClicked])
+    localStorage.setItem("theme", JSON.stringify(theme));
+    document.body.dataset.theme = theme;
+  },[isClicked,theme])
 
 return (
     <FooterContainer>
@@ -167,7 +170,7 @@ return (
       >
       <motion.button 
       onClick={() =>{
-        isClicked ? play():stop();toggleTheme()}}>
+        isClicked ? play():stop();setTheme(nextTheme)}}>
         <svg width="48" height="48" viewBox="0 0 24 24" color="var(--colors-gray10)" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor">
           <mask id="myMask2"><rect x="0" y="0" width="100%" height="100%" fill="white"></rect><circle  r="9" fill="black" cx="100%" cy="0%"></circle>
           </mask>
