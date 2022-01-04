@@ -184,7 +184,7 @@ return (
       </Tooltip>
         </a>
       <hr/>
-      <Tooltip label={isClicked ? "Dark Mode" : "Light Mode"}
+      <Tooltip label={nextTheme}
       style={{
         borderRadius: "5px",
         border: "none",
@@ -195,7 +195,7 @@ return (
       whileHover={{
         scale:2
       }}
-      whileTap={{y:-50,transition:{delay:0.15}}}
+      whileTap={{y:-50,transition:{delay:0.2}}}
       onClick={() =>{
         isClicked ? play():stop();setTheme(nextTheme)}}>
         <svg width="48" height="48" viewBox="0 0 24 24" color="var(--colors-gray10)" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor">
@@ -216,7 +216,7 @@ return (
       whileHover={{
         scale:2
       }}
-      whileTap={{y:-50,transition:{delay:0.15}}}
+      whileTap={{y:-50,transition:{delay:0.2}}}
       onClick={() => {
         setIsClicked(!isClicked);
         isClicked ? play() :stop()

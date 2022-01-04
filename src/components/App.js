@@ -1,4 +1,3 @@
-
 import Footer from './footer/footer';
 import {GlobalStyles} from '../global.styles';
 import { Route, Routes } from 'react-router-dom';
@@ -8,10 +7,7 @@ import Writing from './Writing/writing.component';
 
 
 
-const  App = () => {
-
-
-return (
+const  App = () => (
     <div className="App">
       <GlobalStyles/>
          <Footer/>
@@ -24,5 +20,5 @@ return (
          </main>
     </div>
   );
-}
+
 export default App;
