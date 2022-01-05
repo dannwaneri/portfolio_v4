@@ -31,7 +31,9 @@ const Footer = () => {
   return initialValue || false;
 });
   
-const [theme, setTheme] = useState(() => { 
+const [theme, setTheme] = useState(
+  
+  () => { 
   
   const savedTheme = localStorage.getItem("theme");
   
