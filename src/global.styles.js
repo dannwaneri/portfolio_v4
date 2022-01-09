@@ -159,7 +159,7 @@ button{
     color: var(--colors-gray10);
     width: 48px;
     height: 48px;
-    outline:none;
+    ---focusColor: var(--colors-gray7);
 }
 main{
    display: flex;
