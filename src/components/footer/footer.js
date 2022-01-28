@@ -23,7 +23,7 @@ stiffness:400,
 damping:30
 }
 const buttonVariants = {
-  onTap:{y:-90, outline:"none"},
+  onTap:{y:-60},
   transition: {...curve,delay:0}
 }
 
