@@ -148,6 +148,7 @@ button{
 45deg, var(--gradient-color-1), var(--gradient-color-2), var(--gradient-color-1), var(--gradient-color-2) );
     background-size: 200% 100%;
     border: 0px;
+   outline:none;
     padding: 0px;
     margin: 0px;
     display: flex;
