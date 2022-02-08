@@ -30,7 +30,7 @@ const Home = () => {
     exit="exit"
     >
     <NameContainer>Danny Nwaneri</NameContainer>
-    <TitleContainer>Software Engineer open to both Front-end and Back-end developer roles</TitleContainer>
+    <TitleContainer>Danny Nwaneri is a Software Engineer open to both Front-end and Back-end developer roles</TitleContainer>
     <LineContainer/>
     <TitleContainer>With expertise in React, NodeJs, MongoDB, and GraphQL. He likes solving engineering problems and believes every complicated problem can be solved with ease by breaking it down to fundamental subsets.If this sounds good to you,Feel free to throw him an email!</TitleContainer>
     </motion.div>
