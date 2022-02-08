@@ -32,7 +32,7 @@ const Home = () => {
     <NameContainer>Danny Nwaneri</NameContainer>
     <TitleContainer>Danny Nwaneri is a Software Engineer open to both Front-end and Back-end developer roles</TitleContainer>
     <LineContainer/>
-    <TitleContainer>With expertise in React, NodeJs, MongoDB, and GraphQL. He likes solving engineering problems and believes every complicated problem can be solved with ease by breaking it down to fundamental subsets.He can be reached at!</TitleContainer>
+    <TitleContainer>With expertise in React, NodeJs, MongoDB, and GraphQL. He likes solving engineering problems and believes every complicated problem can be solved with ease by breaking it down to fundamental subsets.He can be reached on twitter!</TitleContainer>
     </motion.div>
 )};
 export default Home;
