@@ -29,7 +29,7 @@ const Home = () => {
     animate="visible"
     exit="exit"
     >
-    <NameContainer>Danny Nwaneri</NameContainer>
+    <NameContainer>Daniel Nwaneri</NameContainer>
     <TitleContainer>Danny Nwaneri is a Software Engineer open to both Frontend and Backend developer roles</TitleContainer>
     <LineContainer/>
     <TitleContainer>With expertise in React, NodeJs, MongoDB, and GraphQL. He likes solving engineering problems and believes every complicated problem can be solved with ease by breaking it down to fundamental subsets.</TitleContainer>
