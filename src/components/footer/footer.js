@@ -148,7 +148,7 @@ return (
       </motion.button>
           </Tooltip>
           </a>
-          <a href="https://github.com/DannyNwaneri" rel="noreferrer" target="_blank">
+          <a href="https://github.com/dannwaneri" rel="noreferrer" target="_blank">
           <Tooltip label="GitHub"
           style={{
             borderRadius: "5px",
