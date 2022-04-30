@@ -29,7 +29,7 @@ const Writing = () => (
     exit="exit"
     >
     <NameContainer>Writing</NameContainer>
-    <TitleContainer>A collection of new things i have learned,weird bugs i have solved, new tools i try and everything in between.</TitleContainer>
+    <TitleContainer>A collection of new things he has learned,weird bugs he has solved, new tools he trys and everything in between.</TitleContainer>
     </motion.div>
 )
 
