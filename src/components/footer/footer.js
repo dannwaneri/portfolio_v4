@@ -168,7 +168,7 @@ return (
       </motion.button>
         </Tooltip>
           </a>
-        <a  href="mailto:Penuelnwaneri@gmail.com" target="_blank" rel="noreferrer">
+        <a  href="mailto:danielnwaneri41@gmail.com" target="_blank" rel="noreferrer">
         <Tooltip label="Mail"
         style={{
           borderRadius: "5px",
