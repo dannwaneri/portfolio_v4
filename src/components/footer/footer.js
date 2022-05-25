@@ -129,7 +129,7 @@ return (
           </Tooltip>
           </NavLink>
           <hr/>
-          <a href ="https://mobile.twitter.com/DannyNwaneri" rel="noreferrer" target = "_blank">
+          <a href ="https://mobile.twitter.com/dannwaneri" rel="noreferrer" target = "_blank">
           <Tooltip label="Twitter"
           style={{
             borderRadius: "5px",
