@@ -26,8 +26,8 @@ const Project = () => (
     animate="visible"
     exit="exit"
     >
-    <NameContainer>Projects</NameContainer>
-    <TitleContainer>Take a look at some of the applications he has dedicated his time to but it is by no means an exhaustive list of his contributions to the world.</TitleContainer>
+    <NameContainer>Our site is getting a little tune up and some love</NameContainer>
+    <TitleContainer>We apologize for the inconvenience, but we're still building this route. You can still contact us at <a href="mailto:penuelnwaneri@gmail.com">penuelnwaneri@gmail.com</a>.We'll be back up soon!</TitleContainer>
     </motion.div>
 )
 

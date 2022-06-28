@@ -28,8 +28,8 @@ const Writing = () => (
     animate="visible"
     exit="exit"
     >
-    <NameContainer>Writing</NameContainer>
-    <TitleContainer>A collection of new things he has learned,weird bugs he has solved, new tools he trys and everything in between.</TitleContainer>
+    <NameContainer>Our site is getting a little tune up and some love</NameContainer>
+    <TitleContainer>We apologize for the inconvenience, but we're still building this route. You can still contact us at <a href="mailto:penuelnwaneri@gmail.com">penuelnwaneri@gmail.com</a>.We'll be back up soon!</TitleContainer>
     </motion.div>
 )
 
