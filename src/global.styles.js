@@ -123,6 +123,9 @@ body[data-theme='dark']{
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
+a{
+text-decoration: none;
+}
 body {
     background: var(--colors-gray1);
     font-family: var(--fonts-sans);
