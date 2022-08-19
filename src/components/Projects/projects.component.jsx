@@ -27,7 +27,7 @@ const Project = () => (
     exit="exit"
     >
     <NameContainer>Projects</NameContainer>
-    <TitleContainer>Projects built with React,Next.js, Node.js, GraphQL, and TypeScript.</TitleContainer>
+    <TitleContainer>Know how many projects I have released up until now? zero.This is going to change. i want to release Open Source Projects and personal projects i've been working on. We will see how it goes, until then.</TitleContainer>
 </motion.div>
 )
 
