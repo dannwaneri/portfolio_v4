@@ -30,7 +30,7 @@ const Home = () => {
     exit="exit"
     >
     <NameContainer>Daniel Nwaneri</NameContainer>
-    <TitleContainer>Daniel Nwaneri is a Software Engineer open to Backend developer role</TitleContainer>
+    <TitleContainer>Daniel Nwaneri is a Software Engineer open to Backend developer role.</TitleContainer>
     <LineContainer/>
     <TitleContainer>He loves backend engineering, especially building apis and dev tools. He writes mostly JavaScript and Nodejs and believes every complicated problem can be solved with ease by breaking it down to fundamental subsets.</TitleContainer>
     </motion.div>
