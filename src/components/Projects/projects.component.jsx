@@ -1,5 +1,5 @@
 import {motion} from "framer-motion";
-import { NameContainer} from '../Home/home.style';
+import { NameContainer,TitleContainer} from '../Home/home.style';
 
 const containerVariants = {
     hidden:{
@@ -26,8 +26,9 @@ const Project = () => (
     animate="visible"
     exit="exit"
     >
-    <NameContainer>Internet thingies built with React,Next.js, Node.js, GraphQL, and TypeScript.</NameContainer>
-    </motion.div>
+    <NameContainer>Projects</NameContainer>
+    <TitleContainer>Projects built with React,Next.js, Node.js, GraphQL, and TypeScript.</TitleContainer>
+</motion.div>
 )
 
 export default Project;

@@ -28,7 +28,7 @@ const Writing = () => (
     animate="visible"
     exit="exit"
     >
-    <NameContainer>Hello World</NameContainer>
+    <NameContainer>Writing</NameContainer>
     <TitleContainer>Welcome to my new blog! This is its fourth or fifth redesign. Know how many blog posts I have released up until now? One.This is going to change. I want to write more, about new things I have learned, weird bugs I have solved, new tools I try and everything inbetween. We will see how it goes, until then.</TitleContainer>
     </motion.div>
 )
