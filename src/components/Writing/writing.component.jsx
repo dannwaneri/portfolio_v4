@@ -29,7 +29,7 @@ const Writing = () => (
     exit="exit"
     >
     <NameContainer>Writing</NameContainer>
-    <TitleContainer>Know how many blog posts I have released up until now? none.This is going to change. I want to write more, about new things I have learned, weird bugs I have solved, new tools I try and everything inbetween. We will see how it goes, until then.</TitleContainer>
+    <TitleContainer>Know how many blog posts Daniel has released up until now? none.This is going to change. He want to write more, about new things he has learned, weird bugs he has solved, new tools he trys and everything inbetween. We will see how it goes, until then.</TitleContainer>
     </motion.div>
 )
 
