@@ -30,9 +30,9 @@ const Home = () => {
     exit="exit"
     >
     <NameContainer>Daniel Nwaneri</NameContainer>
-    <TitleContainer>Daniel Nwaneri is a Software Engineer open to Backend developer role.</TitleContainer>
+    <TitleContainer>Daniel Nwaneri is a Software Developer open to Backend developer role.</TitleContainer>
     <LineContainer/>
-    <TitleContainer>He loves backend engineering, especially building apis and dev tools. He writes mostly JavaScript and Nodejs and believes every complicated problem can be solved with ease by breaking it down to fundamental subsets.</TitleContainer>
+    <TitleContainer>Daniel specializes in JavaScript back-end development. He is comfortable working with many languages and platforms and has recently dedicated himself to developing back-end applications using Node.js, Express.js, MongoDB and Typescript.He also has some experience with blockchain technology and a bachelor's degree in Geophysics.</TitleContainer>
     </motion.div>
 )};
 export default Home;
