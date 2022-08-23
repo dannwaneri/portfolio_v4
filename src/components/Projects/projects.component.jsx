@@ -27,7 +27,7 @@ const Project = () => (
     exit="exit"
     >
     <NameContainer>Projects</NameContainer>
-    <TitleContainer>Know how many projects I have released up until now? zero.This is going to change. i want to release Open Source Projects and personal projects i've been working on. We will see how it goes, until then.</TitleContainer>
+    <TitleContainer>Know how many projects he has released up until now? zero.This is going to change. He wants to release Open Source Projects and personal projects he has been working on. We will see how it goes, until then.</TitleContainer>
 </motion.div>
 )
 
