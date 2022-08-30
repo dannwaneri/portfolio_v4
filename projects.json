@@ -1,0 +1,53 @@
+[
+    {
+      "repo": "withspectrum/spectrum",
+      "name": "Spectrum",
+      "description":
+        "The community platform for the future. Grow safe, successful online communities that are built to last.",
+      "stars": 9560,
+      "background": "linear-gradient(to top right, #7213FB, #4F16EE)",
+      "link":"https://github.com/",
+      "featured": true
+    },
+    {
+      "repo": "styled-components/styled-components",
+      "name": "styled-components",
+      "description":
+        "Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress",
+      "stars": 32174,
+      "background": "linear-gradient(to top right, #DB7093, #DAA357)",
+      "link":"https://github.com/",
+      "featured": true
+    },
+    {
+      "repo": "react-boilerplate/react-boilerplate",
+      "name": "react-boilerplate",
+      "description":
+        "A foundation for React apps with a focus on scalability, developer experience and best practices.",
+      "stars": 26837,
+      "background": "linear-gradient(to top right, #6D6E72, #9EA0A6)",
+      "link":"https://github.com/",
+      "featured": true
+    },
+  
+    {
+      "repo": "gatsbyjs/gatsby",
+      "stars": 48640,
+      "name":"Gatsby",
+      "description":
+        "A framework based on React that helps developers build blazing fast websites and apps",
+      "owner": false,
+      "background": "linear-gradient(to top right, #663399, #0e8de6)",
+      "link":"https://github.com/"
+    },
+    {
+      "repo": "styled-components/polished",
+      "name": "Polished",
+      "description":
+        "A lightweight toolset for writing styles in JavaScript Lodash of CSS-in-JS",
+      "stars": 6570,
+      "featured": true,
+      "link":"https://github.com/"
+    }
+    
+]

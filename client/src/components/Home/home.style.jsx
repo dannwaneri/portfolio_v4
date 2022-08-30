@@ -31,3 +31,4 @@ export const LineContainer = styled.hr`
     margin-bottom: 24px;
     margin-bottom: 48px;
 `
+
