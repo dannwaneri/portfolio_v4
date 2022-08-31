@@ -9,7 +9,6 @@ dotenv.config({
 const jsonProjects = require('./projects.json')
 
 
-
 const start = async () => {
   try {
     await connectDB(process.env.MONGO_URI)
