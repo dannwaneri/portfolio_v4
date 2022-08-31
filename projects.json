@@ -7,7 +7,8 @@
       "stars": 9560,
       "background": "linear-gradient(to top right, #7213FB, #4F16EE)",
       "link":"https://github.com/",
-      "featured": true
+      "featured": true,
+      "date" : "2017"
     },
     {
       "repo": "styled-components/styled-components",
@@ -17,7 +18,8 @@
       "stars": 32174,
       "background": "linear-gradient(to top right, #DB7093, #DAA357)",
       "link":"https://github.com/",
-      "featured": true
+      "featured": true,
+      "date":"2020"
     },
     {
       "repo": "react-boilerplate/react-boilerplate",
@@ -27,7 +29,8 @@
       "stars": 26837,
       "background": "linear-gradient(to top right, #6D6E72, #9EA0A6)",
       "link":"https://github.com/",
-      "featured": true
+      "featured": true,
+      "date":"2021"
     },
   
     {
@@ -35,10 +38,11 @@
       "stars": 48640,
       "name":"Unsplash",
       "description":
-        "A framework based on React that helps developers build blazing fast websites and apps",
+        "A framework based on React that helps developers",
       "owner": false,
       "background": "linear-gradient(to top right, #663399, #0e8de6)",
-      "link":"https://github.com/"
+      "link":"https://github.com/",
+      "date":"2021"
     }
     
 ]
