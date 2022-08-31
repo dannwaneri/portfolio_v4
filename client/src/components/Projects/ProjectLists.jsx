@@ -1,7 +1,10 @@
 import { 
     ProjectName, 
     LinkWrapper,
-    ProjectList
+    ProjectList,
+    ProjectDes,
+    DottedLine,
+    DateWrapper
     } from "./Project.style";
 
 const ProjectLists = ({ Projects }) => {
@@ -10,6 +13,9 @@ const ProjectLists = ({ Projects }) => {
         {Projects.map(Project => (
           <LinkWrapper key={Project._id}>
             <ProjectName>{ Project.name }</ProjectName>
+            <ProjectDes>{Project.description }</ProjectDes>
+            <DottedLine/>
+            <DateWrapper>{Project.date}</DateWrapper>
           </LinkWrapper>
         ))}
       </ProjectList>
