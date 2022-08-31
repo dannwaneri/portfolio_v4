@@ -40,6 +40,9 @@ color: var(--colors-gray11);
 font-family: var(--fonts-body);
 font-weight: 400;
 line-height: 28px;
+@media (max-width: 720px){
+    display: none;
+}
 `
 
 export const LinkWrapper = styled.a`
@@ -66,3 +69,17 @@ margin-top: var(--space-4);
 export const Load = styled.div`
 color: var(--colors-gray12);
 ` 
+
+export const DottedLine = styled.div`
+border-top: 2px dotted var(--colors-gray6);
+    flex: 1 1 0%;
+
+`
+
+export const DateWrapper = styled.p`
+color: var(--colors-gray9);
+line-height: 28px;
+font-size: var(--fontSizes-14);
+font-family: var(--fonts-mono);
+
+`
