@@ -1,5 +1,8 @@
 import {motion} from "framer-motion";
-import { NameContainer,TitleContainer} from '../Home/home.style';
+import {
+    WritingHeading,
+    WritingTitle,
+} from './writing.style'
 
 
 const containerVariants = {
@@ -28,8 +31,8 @@ const Writing = () => (
     animate="visible"
     exit="exit"
     >
-    <NameContainer>Writing</NameContainer>
-    <TitleContainer>Know how many blog posts Daniel has released up until now? none.This is going to change. He want to write more, about new things he has learned, weird bugs he has solved, new tools he trys and everything inbetween. We will see how it goes, until then.</TitleContainer>
+    <WritingHeading>Writing</WritingHeading>
+    <WritingTitle>A collection of my somewhat (un)organized musings.</WritingTitle> 
     </motion.div>
 )
 
