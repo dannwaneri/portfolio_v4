@@ -10,6 +10,29 @@ color: var(--colors-gray12);
 font-family: var(--fonts-body);
 `;
 
+export const ProjectHeading = styled.h1`
+    margin-bottom: 8px;
+    user-select: none;
+    letter-spacing: -1px;
+    line-height: var(--lineHeights-40);
+    font-size: var(--fontSizes-32);
+    font-family: var(--fonts-head);
+    font-weight: 600 !important;
+    color: var(--colors-gray12);
+
+`
+
+
+export const ProjectTitle = styled.p`
+border-bottom: 2px dotted var(--colors-gray6);
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    color: var(--colors-gray11);
+    font-size: 15px;
+    font-family: var(--fonts-body);
+    font-weight: 400;
+    line-height: 28px;
+`
 
 export const ProjectDes = styled.span`
 display: inline-block;
@@ -39,3 +62,7 @@ margin-top: var(--space-4);
     flex-direction: column;
     gap: 28px;
 `
+
+export const Load = styled.div`
+color: var(--colors-gray12);
+` 
