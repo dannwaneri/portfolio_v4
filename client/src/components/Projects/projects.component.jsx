@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
 import {motion} from "framer-motion";
 import ProjectLists from "./ProjectLists";
-import { 
-    NameContainer,
-    TitleContainer
-} from '../Home/home.style';
+
+import {
+  ProjectTitle,
+  ProjectHeading,
+  Load
+} from './Project.style';
 
 
 const containerVariants = {
@@ -49,11 +51,11 @@ const Project = () => {
     animate="visible"
     exit="exit"
     >
-    <NameContainer>Projects</NameContainer>
-    <TitleContainer>
-    Know how many projects he has released up until now? zero.This is going to change. He wants to release Open Source Projects and personal projects he has been working on. We will see how it goes, until then.
-</TitleContainer>
-{ isPending && <div>Loading...</div> }
+    <ProjectHeading>Projects</ProjectHeading>
+    <ProjectTitle>
+    Internet thingies built with React, Next.js Node.js, and TypeScript.
+</ProjectTitle>
+{ isPending && <Load>...</Load> }
   {Projects && <ProjectLists Projects={Projects}/>}
 </motion.div>
 )}
