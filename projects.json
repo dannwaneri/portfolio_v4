@@ -3,7 +3,7 @@
       "repo": "withspectrum/spectrum",
       "name": "Spectrum",
       "description":
-        "The community platform for the future. Grow safe, successful online communities that are built to last.",
+        "The community platform for the future.",
       "stars": 9560,
       "background": "linear-gradient(to top right, #7213FB, #4F16EE)",
       "link":"https://github.com/",
@@ -11,9 +11,9 @@
     },
     {
       "repo": "styled-components/styled-components",
-      "name": "styled-components",
+      "name": "styled",
       "description":
-        "Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress",
+        "Visual primitives for the component age.",
       "stars": 32174,
       "background": "linear-gradient(to top right, #DB7093, #DAA357)",
       "link":"https://github.com/",
@@ -21,9 +21,9 @@
     },
     {
       "repo": "react-boilerplate/react-boilerplate",
-      "name": "react-boilerplate",
+      "name": "react",
       "description":
-        "A foundation for React apps with a focus on scalability, developer experience and best practices.",
+        "A foundation for React apps with a focus on scalability.",
       "stars": 26837,
       "background": "linear-gradient(to top right, #6D6E72, #9EA0A6)",
       "link":"https://github.com/",
