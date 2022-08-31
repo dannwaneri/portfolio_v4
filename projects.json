@@ -1,7 +1,7 @@
 [
     {
       "repo": "withspectrum/spectrum",
-      "name": "Spectrum",
+      "name": "Cobalt",
       "description":
         "The community platform for the future.",
       "stars": 9560,
@@ -11,7 +11,7 @@
     },
     {
       "repo": "styled-components/styled-components",
-      "name": "styled",
+      "name": "Obsidian",
       "description":
         "Visual primitives for the component age.",
       "stars": 32174,
@@ -21,7 +21,7 @@
     },
     {
       "repo": "react-boilerplate/react-boilerplate",
-      "name": "react",
+      "name": "NasaProject",
       "description":
         "A foundation for React apps with a focus on scalability.",
       "stars": 26837,
@@ -33,20 +33,11 @@
     {
       "repo": "gatsbyjs/gatsby",
       "stars": 48640,
-      "name":"Gatsby",
+      "name":"Unsplash",
       "description":
         "A framework based on React that helps developers build blazing fast websites and apps",
       "owner": false,
       "background": "linear-gradient(to top right, #663399, #0e8de6)",
-      "link":"https://github.com/"
-    },
-    {
-      "repo": "styled-components/polished",
-      "name": "Polished",
-      "description":
-        "A lightweight toolset for writing styles in JavaScript Lodash of CSS-in-JS",
-      "stars": 6570,
-      "featured": true,
       "link":"https://github.com/"
     }
     
