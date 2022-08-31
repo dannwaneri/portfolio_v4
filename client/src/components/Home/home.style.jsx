@@ -20,6 +20,16 @@ font-size: 15px;
 line-height: var(--lineHeights-24);
 `;
 
+export const Title = styled.p`
+border-bottom: 2px dotted var(--colors-gray6);
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    color: var(--colors-gray11);
+    font-size: 15px;
+    font-family: var(--fonts-body);
+    font-weight: 400;
+    line-height: 28px;
+`
 
 export const LineContainer = styled.hr`
    width: 48px;
