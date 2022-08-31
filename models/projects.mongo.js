@@ -22,6 +22,9 @@ const projectSchema = new mongoose.Schema({
     },
     link:{
         type: String
+    },
+    date:{
+        type: Number
     }
 })
 
