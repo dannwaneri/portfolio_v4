@@ -3,7 +3,9 @@ import {motion} from "framer-motion";
 import {
     WritingHeading,
     WritingTitle,
-    Load
+    Load,
+    WritingPosition,
+    WritingContainer
 } from './writing.style'
 
 import List from './List'
@@ -51,10 +53,13 @@ const Writing = () => {
     animate="visible"
     exit="exit"
     >
+      <WritingPosition>
+      <WritingContainer></WritingContainer>
     <WritingHeading>Writing</WritingHeading>
     <WritingTitle>A collection of my somewhat (un)organized musings.</WritingTitle>
     { isPending && <Load>...</Load> }
   {Blogs && <List Blogs={Blogs}/>}
+  </WritingPosition>
     </motion.div>
 )
 

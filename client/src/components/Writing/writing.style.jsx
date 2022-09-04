@@ -8,6 +8,7 @@ export const WritingContainer = styled.div`
     left: -44px;
     height: calc(100% + 120px);
     border-left: 2px dotted var(--colors-gray6);
+    min-height: calc(100vh - 120px);
     @media (max-width: 720px){
     display: none;
 }
