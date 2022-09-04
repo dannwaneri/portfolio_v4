@@ -3,12 +3,11 @@ import styled from "styled-components";
 
 export const WritingContainer = styled.div`
     width: 1px;
-    height: calc(100% + 120px);
     position: absolute;
     top: 0px;
     left: -44px;
+    height: calc(100% + 120px);
     border-left: 2px dotted var(--colors-gray6);
-    min-height: calc(100vh - 120px);
     @media (max-width: 720px){
     display: none;
 }
@@ -51,3 +50,42 @@ border-bottom: 2px dotted var(--colors-gray6);
     font-weight: 400;
     line-height: 28px;
 `
+
+
+export const BlogList = styled.a`
+    width: calc(100% + 48px);
+    position: relative;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 20px;
+    margin: 0px -20px -20px -20px;
+    transition: background 150ms ease;
+    -webkit-tap-highlight-color: transparent;
+    outline: 0;
+`
+
+
+export const BlogHeader = styled.header`
+
+`
+
+export const BlogTitle = styled.h3`
+font-size: var(--fontSizes-20);
+font-weight: 500;
+line-height: 28px;
+color: var(--colors-gray12);
+font-family: var(--fonts-body);
+`
+
+export const BlogDes = styled.p`
+    margin-top: 4px;
+    font-size: var(--fontSizes-14);
+    color: var(--colors-gray11);
+    line-height: 28px;
+    font-weight: 400;
+    font-family: var(--fonts-body);
+`
+
+export const Load = styled.div`
+color: var(--colors-gray12);
+` 
