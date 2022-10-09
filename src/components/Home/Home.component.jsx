@@ -1,3 +1,4 @@
+import React from "react";
 import {motion} from "framer-motion";
 
 import { 
@@ -34,7 +35,7 @@ const Home = () => {
     exit="exit"
     >
     <NameContainer>Daniel Nwaneri</NameContainer>
-    <Title>Daniel Nwaneri is a Software Developer open to Backend developer role.</Title>
+    <Title>Hey, I am Daniel Nwaneri, a Software Developer open to Backend developer role.</Title>
     <TitleContainer>Daniel specializes in JavaScript back-end development. He is comfortable working with many languages and platforms and has recently dedicated himself to developing back-end applications using Node.js, Express.js, MongoDB and Typescript.He also has some experience with blockchain technology and a bachelor's degree in Geophysics.</TitleContainer>
     </motion.div>
 )};

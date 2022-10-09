@@ -1,7 +1,7 @@
 import styled from "styled-components";
+import { Link } from 'gatsby';
 
-
-export const WritingContainer = styled.div`
+export const DivTag = styled.div`
     width: 1px;
     position: absolute;
     top: 0px;
@@ -14,12 +14,12 @@ export const WritingContainer = styled.div`
 }
 `
 
-export const WritingPosition = styled.div`
+export const DivStyle = styled.div`
     position: relative;
 `
 
 
-export const ProjectName = styled.span`
+export const SpanStyle = styled.span`
 display: inline-block;
 font-weight: 500;
 line-height: 28px;
@@ -28,7 +28,7 @@ color: var(--colors-gray12);
 font-family: var(--fonts-body);
 `;
 
-export const WritingHeading = styled.h1`
+export const HeadTag = styled.h1`
     margin-bottom: 8px;
     user-select: none;
     letter-spacing: -1px;
@@ -41,7 +41,7 @@ export const WritingHeading = styled.h1`
 `
 
 
-export const WritingTitle = styled.p`
+export const ParagraphStyle = styled.p`
 border-bottom: 2px dotted var(--colors-gray6);
     padding-bottom: 24px;
     margin-bottom: 24px;
@@ -53,7 +53,7 @@ border-bottom: 2px dotted var(--colors-gray6);
 `
 
 
-export const BlogList = styled.a`
+export const LinkWrapper = styled.a`
     width: calc(100% + 48px);
     position: relative;
     border-radius: 12px;
@@ -61,6 +61,7 @@ export const BlogList = styled.a`
     padding: 20px;
     margin: 0px -20px -20px -20px;
     transition: background 150ms ease;
+    -webkit-tap-highlight-color:rgba(0,0,0,0)
     -webkit-tap-highlight-color: transparent;
     outline: 0;
 `
@@ -90,3 +91,57 @@ export const BlogDes = styled.p`
 export const Load = styled.div`
 color: var(--colors-gray12);
 ` 
+
+
+
+export const TemTitle = styled.h1`
+letter-spacing: -1px;
+line-height: var(--lineHeights-40);
+font-size: var(--fontSizes-32);
+font-family: var(--fonts-head);
+font-weight: 600 !important;
+color: var(--colors-gray12);
+margin:0
+`
+
+export const TemDes = styled.h2`
+margin-top: 8px;
+border-bottom: 2px dotted var(--colors-gray6);
+padding-bottom: 24px;
+margin-bottom: 24px;
+color: var(--colors-gray11);
+font-size: 15px;
+font-weight: 400;
+font-family: var(--fonts-body);
+line-height: 28px;
+`
+
+export const TemParaone = styled.p`
+font-size: var(--fontSizes-16);
+color: var(--colors-gray11);
+font-weight: 400;
+font-family: var(--fonts-body);
+line-height: 28px;
+
+`
+
+export const TempParatwo = styled.p`
+font-size: var(--fontSizes-16);
+color: var(--colors-gray11);
+font-weight: 400;
+font-family: var(--fonts-body);
+line-height: 28px;
+margin-top: 24px;
+`
+
+export const StyledLink = styled(Link)`
+ width: calc(100% + 48px);
+    position: relative;
+    border-radius: 12px;
+    padding: 20px;
+    cursor: pointer;
+    margin: 0px -20px -20px -20px;
+    outline: 0px;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+`;

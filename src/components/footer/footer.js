@@ -3,7 +3,7 @@ import Tooltip from '@reach/tooltip';
 import '@reach/tooltip/styles.css';
 import useSound from "use-sound";
 import boopSfx from "../../sounds/switch-off.mp3";
-import { NavLink } from 'react-router-dom';
+import { Link } from "gatsby"
 import {motion} from "framer-motion";
 import { FooterContainer,OptionsContainer } from "./footer.styles";
 
@@ -67,7 +67,7 @@ useEffect(() => {
 return (
     <FooterContainer>
       <OptionsContainer>
-        <NavLink  to ="/" activeclassname="active">
+        <Link  to ="/">
         <Tooltip label="Home"
         style={{
           borderRadius: "4px",
@@ -85,9 +85,9 @@ return (
         </svg>
       </motion.button>
         </Tooltip>
-        </NavLink>
-        <NavLink  to="/projects" activeclassname ="active">
-        <Tooltip label="Projects"
+        </Link>
+        <Link  to="/project/">
+        <Tooltip label="Project"
         style={{
           borderRadius: "5px",
           border: "none",
@@ -106,9 +106,9 @@ return (
       </svg>
       </motion.button>
         </Tooltip>
-        </NavLink>
-          <NavLink  to ="/writing" activeclassname ="active">
-          <Tooltip label="Writing"
+        </Link>
+          <Link  to ="/blog/">
+          <Tooltip label="Blog"
           style={{
             borderRadius: "5px",
             border: "none",
@@ -127,7 +127,7 @@ return (
       </svg>
       </motion.button>
           </Tooltip>
-          </NavLink>
+          </Link>
           <hr/>
           <a href ="https://mobile.twitter.com/dannwaneri" rel="noreferrer" target = "_blank">
           <Tooltip label="Twitter"

@@ -4,8 +4,13 @@ import {createGlobalStyle} from 'styled-components';
 export const GlobalStyles = createGlobalStyle`
 :root{
 -webkit-font-smoothing: antialiased;
---fonts-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
---fonts-serif: Lusitana, serif;
+--fonts-body: Magnat Text, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+--fonts-head: Magnat Head, serif;
+--fonts-poster: Magnat Poster, serif;
+--fonts-flexible: Flexible, sans-serif;
+--fonts-mono: Menlo, monospace;
+--fonts-pf: Playfair Display, serif;
+--fonts-flexibleWide: Flexible Wide, serif;
 --space-1: 8px;
 --space-2: 16px;
 --space-3: 24px;
@@ -116,6 +121,12 @@ body[data-theme='dark']{
     margin: 0;
     padding: 0;
   }
+
+::selection {
+    background: rgb(255, 154, 158);
+    color: var(--colors-lowContrast);
+    -webkit-text-fill-color: var(--colors-lowContrast);
+}
   
   html{
       scroll-behavior: smooth;
@@ -123,6 +134,16 @@ body[data-theme='dark']{
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
+
+p{
+    font-size: var(--fontSizes-16);
+    color: var(--colors-gray11);
+    font-weight: 400;
+    font-family: var(--fonts-body);
+    line-height: 28px;
+    margin-top: 24px;
+}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -130,7 +151,7 @@ a {
 }
 body {
     background: var(--colors-gray1);
-    font-family: var(--fonts-sans);
+    font-family: "Magnat Text";
 }
 hr{
     margin: 0px 4px;

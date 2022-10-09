@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import {motion} from "framer-motion";
 import {
     WritingHeading,
     WritingTitle,
     Load,
     WritingPosition,
-    WritingContainer
+    WritingContainer,
 } from './writing.style'
 
 import List from './List'
@@ -29,24 +29,8 @@ const containerVariants = {
 }
 
 
-const Writing = () => {
-    const [Blogs, setBlogs] = useState(null);
-    const [isPending, setIsPending] = useState(true);
-  
-    useEffect(() => {
-      setTimeout(() => {
-        fetch('/v1/blogs')
-        .then(res => {
-          return res.json();
-        })
-        .then(data => {
-          setIsPending(false);
-          setBlogs(data);
-        })
-      }, 1000);
-    }, [])
-
-    return (
+const Writing = ({posts}) => {
+  return (
     <motion.div 
     variant={containerVariants} 
     initial="hidden"
@@ -57,11 +41,13 @@ const Writing = () => {
       <WritingContainer></WritingContainer>
     <WritingHeading>Writing</WritingHeading>
     <WritingTitle>A collection of my somewhat (un)organized musings.</WritingTitle>
-    { isPending && <Load>...</Load> }
-  {Blogs && <List Blogs={Blogs}/>}
+    {posts.map(post => {
+    <List key={post.id} {...post}/>
+    })}
   </WritingPosition>
     </motion.div>
 )
 
 }
 export default Writing;
+
