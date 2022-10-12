@@ -4,10 +4,7 @@ import Layout from "../components/Layout"
 import {
   DivStyle,
   DivTag,
-  TemTitle,
-  TemDes,
-  TemParaone,
-  TempParatwo
+  TemTitle
 } from "../components/Blog/blog.style"
 
 
