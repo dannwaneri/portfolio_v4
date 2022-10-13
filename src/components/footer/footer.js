@@ -34,7 +34,7 @@ const Footer = () => {
     
     () => {
 
-  const saved = localStorage.getItem("isClicked");
+  const saved = typeof window !== 'undefined' && window.localStorage.getItem("isClicked");
 
   const initialValue = JSON.parse(saved);
   return initialValue || false;
@@ -44,7 +44,7 @@ const [theme, setTheme] = useState(
   
   () => { 
   
-  const savedTheme = localStorage.getItem("theme");
+  const savedTheme = typeof window !== 'undefined' && window.localStorage.getItem("theme");
   
   const initialTheme = JSON.parse(savedTheme);
 return initialTheme || 'light'
