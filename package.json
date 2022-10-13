@@ -39,7 +39,8 @@
     "clean": "gatsby clean"
   },
   "engines": {
-    "node": "16.x"
+    "node": "16.13.1",
+    "npm":"8.3.0"
   },
   "eslintConfig": {
     "extends": [
