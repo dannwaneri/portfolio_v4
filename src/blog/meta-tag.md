@@ -1,5 +1,5 @@
 ---
-title: My one wierd trick to be more productive as a developer
+title: My one wierd trick to be more productive
 description:  A trick to keeping your commitment to getting a lot done
 slug: productivity-trick
 readTime: 1
