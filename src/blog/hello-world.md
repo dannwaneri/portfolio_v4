@@ -18,6 +18,6 @@ The goal of this blog is simple: share my knowledge and experience with others w
 I will write articles on topics that interest me or are related to my work as a software developer.
 I am not an expert, but I try to write about things that I know about. This is a blog for beginners, so if you are looking for advanced topics then this isn't the place for you.
 
-My goal is to become a better Software Developer and hopefully make some money doing what I love. If you have any questions or comments, please feel free to leave them below or on my **[Twitter](https://twitter.com/dannwaneri)** handle.
+My goal is to become a better Software developer and hopefully make some money doing what I love. If you have any questions or comments, please feel free to leave them below or on my **[Twitter](https://twitter.com/dannwaneri)** handle.
 
 Thanks for reading, and I hope you enjoyed my first blog post!
