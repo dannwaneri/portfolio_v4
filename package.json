@@ -1,6 +1,7 @@
 {
   "name": "portfolio_v4",
   "version": "1.0.0",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "@mdx-js/mdx": "^2.1.3",
