@@ -1,6 +1,6 @@
 ---
 title: Hello World
-description: This is my first post,How exciting.
+description: This is my first post,how exciting.
 slug: Hello-world
 date: 2022-09-17
 readTime: 3
