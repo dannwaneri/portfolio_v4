@@ -1,6 +1,6 @@
 ---
 title: Productivity hack
-description:  A trick to keeping your commitment to getting a lot done.
+description:  Get a head start on your day with this productivity hack.
 slug: productivity-trick
 readTime: 1
 date: 2022-09-28
