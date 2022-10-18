@@ -16,6 +16,9 @@ export const DivTag = styled.div`
 
 export const DivStyle = styled.div`
     position: relative;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 672px;
 `
 
 

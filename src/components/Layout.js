@@ -2,6 +2,7 @@ import React from "react";
 import Footer from './footer/footer';
 import {GlobalStyles} from '../global.styles';
 import {motion} from "framer-motion";
+import styled from "styled-components";
 
 
 const  Layout = ({children}) => {
@@ -20,10 +21,19 @@ const  Layout = ({children}) => {
            stiffness: 75,
            duration: 0.3
          }}>
+          <Wrapper>
 
           {children}
+          </Wrapper>
          </motion.main>
     </div>
   )};
 
 export default Layout;
+
+const Wrapper = styled.div`
+position: relative;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 672px;
+`
