@@ -4,6 +4,11 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
 **/
 
+require("dotenv").config({
+  path: `.env`,
+})
+
+
 module.exports = {
   siteMetadata: {
     title: `dan nwaneri- Backend Developer `,
@@ -52,15 +57,15 @@ module.exports = {
           dbName: `21-PORTFOLIO-PROJECT`,
           collection: 'projects',
           server: {
-              address: "nodeexpressproject-shard-00-01.rl7wb.mongodb.net",
+              address: process.env.MONGO_CLUSTER_ADDRESS,
               port: 27017
           },
           auth: {
-              user: 'Penuel',
-              password: 'knJ0z9GcUxVIBYwc'
+              user: process.env.MONGO_USER,
+              password:  process.env.MONGO_PASSWORD
           },
           extraParams: {
-            replicaSet: 'nodeexpressproject-shard-0',
+            replicaSet: process.env.MONGO_REPLICA_SET,
               ssl: true,
               authSource: `admin`,
               useUnifiedTopology: true,
