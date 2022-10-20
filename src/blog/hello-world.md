@@ -7,7 +7,7 @@ readTime: 3
 coverImage: ./cover.jpg
 ---
 
-Welcome to My First Blog Post. I'm going to be sharing my candid thoughts about Node.js,Typescripts and other interesting things.so if you don't like reading about Node.js and Typescript, then this isn't the blog for you.
+Welcome to My first Blog Post. I'm going to be sharing my candid thoughts about Node.js,Typescripts and other interesting things.so if you don't like reading about Node.js and Typescript, then this isn't the blog for you.
 
 ![Alt text here](./cover.jpg)
 
