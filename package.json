@@ -11,6 +11,7 @@
     "framer-motion": "^7.3.5",
     "gatsby": "^4.22.1",
     "gatsby-plugin-image": "^2.23.0",
+    "gatsby-plugin-manifest": "^4.24.0",
     "gatsby-plugin-mdx": "^4.2.0",
     "gatsby-plugin-sharp": "^4.23.0",
     "gatsby-plugin-slug": "^2.0.0",
@@ -33,7 +34,7 @@
   },
   "scripts": {
     "build": "gatsby build",
-    "heroku-postbuild":"gatsby build",
+    "heroku-postbuild": "gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -41,7 +42,7 @@
   },
   "engines": {
     "node": "16.13.1",
-    "npm":"8.3.0"
+    "npm": "8.3.0"
   },
   "eslintConfig": {
     "extends": [

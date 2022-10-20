@@ -5,6 +5,17 @@
 **/
 
 module.exports = {
+  siteMetadata: {
+    title: `dan nwaneri- Backend Developer `,
+    author: {
+      name: `dan nwaneri`
+    },
+    description: `This is my personal website`,
+    siteUrl: `https://www.danielnwaneri.me/`,
+    social: {
+      twitter: `dannwaneri`,
+    },
+  },
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-mdx`,
@@ -58,6 +69,18 @@ module.exports = {
           },
           preserveObjectIds: true,
       }
+  },
+  {
+    resolve: `gatsby-plugin-manifest`,
+    options: {
+      name: `dan nwaneri`,
+      short_name: `dan nwaneri`,
+      start_url: `/`,
+      background_color: `#ffffff`,
+        theme_color: `#ffffff`,
+        display: `minimal-ui`,
+      icon: `content/assets/favicon-dark.png`
+    },
   },
   ],
 }
