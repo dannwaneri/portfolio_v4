@@ -8,21 +8,22 @@ require("dotenv").config({
   path: `.env`,
 })
 
+const siteMetadata = {
+    title: `dan nwaneri - Backend Developer `,
+      name: `dan nwaneri`,
+    description: `This is my personal website`,
+    lastBuildDate: new Date(Date.now()).toISOString(),
+    siteLanguage: `en-GB`,
+    siteLocale: `en_gb`,
+    siteUrl: `https://www.danielnwaneri.me/`,
+    twitterUsername: `@dannwaneri`,
+};
 
 module.exports = {
-  siteMetadata: {
-    title: `dan nwaneri- Backend Developer `,
-    author: {
-      name: `dan nwaneri`
-    },
-    description: `This is my personal website`,
-    siteUrl: `https://www.danielnwaneri.me/`,
-    social: {
-      twitter: `dannwaneri`,
-    },
-  },
+  siteMetadata,
   plugins: [
     `gatsby-plugin-image`,
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-mdx`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
