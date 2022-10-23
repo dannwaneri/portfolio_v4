@@ -9,9 +9,9 @@ require("dotenv").config({
 })
 
 const siteMetadata = {
-    title: `dan nwaneri - Backend Developer `,
-      name: `dan nwaneri`,
-    description: `This is my personal website`,
+    title: `Daniel Nwaneri`,
+      name: `Daniel Nwaneri`,
+    description: `Daniel Nwaneri is a Backend developer who specializes in JavaScript, Nodejs and  backend web development`,
     lastBuildDate: new Date(Date.now()).toISOString(),
     siteLanguage: `en-GB`,
     siteLocale: `en_gb`,

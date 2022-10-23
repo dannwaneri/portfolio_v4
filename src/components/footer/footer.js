@@ -86,7 +86,7 @@ return (
       </motion.button>
         </Tooltip>
         </Link>
-        <Link  to="/project/">
+        <Link  to="/projects/">
         <Tooltip label="Project"
         style={{
           borderRadius: "5px",
@@ -107,7 +107,7 @@ return (
       </motion.button>
         </Tooltip>
         </Link>
-          <Link  to ="/blog/">
+          <Link  to ="/blogs/">
           <Tooltip label="Blog"
           style={{
             borderRadius: "5px",

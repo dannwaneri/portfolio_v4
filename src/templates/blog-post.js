@@ -1,5 +1,7 @@
 import React from "react";
 import { graphql } from 'gatsby'
+import SEO from "react-seo-component"
+import { useSiteMetadata } from "../components/hooks/use-site-metadata";
 import Layout from "../components/Layout"
 import {
   DivStyle,
@@ -9,9 +11,30 @@ import {
 
 
 const  BlogPost  = ({data}) => {
-  const post = data.markdownRemark
-    
+  const post = data.markdownRemark;
+  const {
+        title: siteTitle,
+       siteUrl,
+      siteLanguage,
+       siteLocale,
+       twitterUsername,
+        name,
+     } = useSiteMetadata();
     return (
+      <>
+      <SEO
+       title={post.frontmatter.title}
+        titleTemplate={siteTitle}
+       description={post.frontmatter.description}
+      pathname={`${siteUrl}${post.frontmatter.slug}`}
+       article={true}
+      siteLanguage={siteLanguage}
+       siteLocale={siteLocale}
+      twitterUsername={twitterUsername}
+        author={name}
+        publishedDate={post.frontmatter.date}
+       modifiedDate={new Date(Date.now()).toISOString()}
+     />
         <Layout>
           <DivStyle>
         <DivTag></DivTag>
@@ -29,6 +52,7 @@ const  BlogPost  = ({data}) => {
             </article>
             </DivStyle>
         </Layout>
+        </>
     )
 }
 export default  BlogPost 
@@ -44,6 +68,7 @@ export const pageQuery = graphql`
           readTime
       }
       html
+      excerpt
     }
   }
 `

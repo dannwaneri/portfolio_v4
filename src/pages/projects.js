@@ -1,7 +1,10 @@
 import React  from "react";
 import {motion} from "framer-motion";
 import { graphql } from "gatsby"
+import SEO from "react-seo-component";
 import Layout from '../components/Layout'
+import { useSiteMetadata } from "../components/hooks/use-site-metadata";
+
 import {
   ParagraphStyle,
   HeadTag,
@@ -35,8 +38,25 @@ const containerVariants = {
 
 export default function ProjectPage(props) {
   const projects = props.data.allMongodb21PortfolioprojectProjects.edges;
-
+  const {
+    title,
+    description,
+    siteUrl,
+   siteLanguage,
+    siteLocale,
+    twitterUsername,
+  } = useSiteMetadata();
   return (
+    <>
+    <SEO
+        title={`Projects`}
+        titleTemplate={title}
+       description={description}
+        pathname={siteUrl}
+        siteLanguage={siteLanguage}
+        siteLocale={siteLocale}
+        twitterUsername={twitterUsername}
+      />
    <Layout>
     <motion.div 
     variant={containerVariants}
@@ -60,6 +80,7 @@ export default function ProjectPage(props) {
       </UlStyle>
 </motion.div>
     </Layout>
+    </>
   );
 }
 
