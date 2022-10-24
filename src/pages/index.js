@@ -1,21 +1,23 @@
 import React from "react";
-import SEO from "react-seo-component";
+/**import SEO from "react-seo-component";**/
 import Layout from '../components/Layout'
 import Home from "../components/Home/Home.component"
-import { useSiteMetadata } from "../components/hooks/use-site-metadata";
+/**import { useSiteMetadata } from "../components/hooks/use-site-metadata";**/
+import { SEO } from "../components/seo"
 
 export default function HomePage() {
-  const {
+  /**const {
         title,
         description,
         siteUrl,
        siteLanguage,
         siteLocale,
         twitterUsername,
-      } = useSiteMetadata();
+        image
+      } = useSiteMetadata();**/
   return (
     <>
-    <SEO
+    {/**<SEO
         title={`Home`}
         titleTemplate={title}
        description={description}
@@ -23,10 +25,16 @@ export default function HomePage() {
         siteLanguage={siteLanguage}
         siteLocale={siteLocale}
         twitterUsername={twitterUsername}
-      />
+        image={image}
+  />**/}
    <Layout>
     <Home/>
     </Layout>
     </>
   );
 }
+
+
+export const Head = () => (
+  <SEO title='Home' />
+)

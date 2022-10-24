@@ -1,9 +1,10 @@
 import React from "react";
 import { graphql } from "gatsby"
 import {motion} from "framer-motion";
-import SEO from "react-seo-component";
+/**import SEO from "react-seo-component";**/
 import Layout from '../components/Layout'
-import { useSiteMetadata } from "../components/hooks/use-site-metadata";
+/**import { useSiteMetadata } from "../components/hooks/use-site-metadata";**/
+import { SEO } from "../components/seo"
 import {
   HeadTag,
   ParagraphStyle,
@@ -40,17 +41,17 @@ const containerVariants = {
 
 export default function BlogPage({data}) {
   const posts = data.posts.edges;
-  const {
+ /**  const {
     title,
     description,
     siteUrl,
    siteLanguage,
     siteLocale,
     twitterUsername,
-  } = useSiteMetadata();
+  } = useSiteMetadata();**/
   return (
     <>
-    <SEO
+    {/**<SEO
         title={`blogs`}
         titleTemplate={title}
        description={description}
@@ -58,7 +59,7 @@ export default function BlogPage({data}) {
         siteLanguage={siteLanguage}
         siteLocale={siteLocale}
         twitterUsername={twitterUsername}
-      />
+  />**/}
    <Layout>
   <motion.div 
     variant={containerVariants} 
@@ -87,6 +88,9 @@ export default function BlogPage({data}) {
   );
 }
 
+export const Head = () => (
+  <SEO title='Blog' />
+)
 
 export const pageQuery = graphql`
 query MyQuery {

@@ -15,6 +15,7 @@ const siteMetadata = {
     lastBuildDate: new Date(Date.now()).toISOString(),
     siteLanguage: `en-GB`,
     siteLocale: `en_gb`,
+    image: `content/assets/x1280.png`,
     siteUrl: `https://www.danielnwaneri.me/`,
     twitterUsername: `@dannwaneri`,
 };
@@ -79,8 +80,8 @@ module.exports = {
   {
     resolve: `gatsby-plugin-manifest`,
     options: {
-      name: `dan nwaneri`,
-      short_name: `dan nwaneri`,
+      name: `Daniel Nwaneri`,
+      short_name: `Daniel Nwaneri`,
       start_url: `/`,
       background_color: `#ffffff`,
         theme_color: `#ffffff`,
