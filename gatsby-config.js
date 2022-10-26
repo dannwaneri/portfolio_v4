@@ -14,7 +14,7 @@ const siteMetadata = {
     lastBuildDate: new Date(Date.now()).toISOString(),
     siteLanguage: `en-GB`,
     siteLocale: `en_gb`,
-    image: `image/x1280.png`,
+    image: `${__dirname}/src/static/image/x1280.png`,
     siteUrl: `https://www.danielnwaneri.me/`,
     twitterUsername: `@dannwaneri`,
 };
@@ -85,7 +85,7 @@ module.exports = {
       background_color: `#ffffff`,
         theme_color: `#ffffff`,
         display: `minimal-ui`,
-      icon: `image/favicon-dark.png`
+      icon: `${__dirname}/src/static/image/favicon-dark.png`
     },
   },
   ],
