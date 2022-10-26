@@ -87,7 +87,7 @@ export default function ProjectPage(props) {
 
 
 export const Head = () => (
-  <SEO title='Project' />
+  <SEO title='Project | Daniel Nwaneri ' />
 )
 
 export const pageQuery = graphql`

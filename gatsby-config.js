@@ -10,12 +10,11 @@ require("dotenv").config({
 
 const siteMetadata = {
     title: `Daniel Nwaneri`,
-      name: `Daniel Nwaneri`,
     description: `Daniel Nwaneri is a Backend developer who specializes in JavaScript, Nodejs and  backend web development`,
     lastBuildDate: new Date(Date.now()).toISOString(),
     siteLanguage: `en-GB`,
     siteLocale: `en_gb`,
-    image: `content/assets/x1280.png`,
+    image: `image/x1280.png`,
     siteUrl: `https://www.danielnwaneri.me/`,
     twitterUsername: `@dannwaneri`,
 };
@@ -86,7 +85,7 @@ module.exports = {
       background_color: `#ffffff`,
         theme_color: `#ffffff`,
         display: `minimal-ui`,
-      icon: `content/assets/favicon-dark.png`
+      icon: `image/favicon-dark.png`
     },
   },
   ],

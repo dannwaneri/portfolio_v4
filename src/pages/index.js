@@ -36,5 +36,5 @@ export default function HomePage() {
 
 
 export const Head = () => (
-  <SEO title='Home' />
+  <SEO title='Home | Daniel Nwaneri' />
 )

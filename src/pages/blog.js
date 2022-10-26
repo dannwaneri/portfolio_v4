@@ -89,7 +89,7 @@ export default function BlogPage({data}) {
 }
 
 export const Head = () => (
-  <SEO title='Blog' />
+  <SEO title='Blog | Daniel Nwaneri' />
 )
 
 export const pageQuery = graphql`
