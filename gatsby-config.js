@@ -14,7 +14,7 @@ const siteMetadata = {
     lastBuildDate: new Date(Date.now()).toISOString(),
     siteLanguage: `en-GB`,
     siteLocale: `en_gb`,
-    image: `${__dirname}/src/static/image/x1280.png`,
+    image: `${__dirname}/src/static/image/generic.png`,
     siteUrl: `https://www.danielnwaneri.me/`,
     twitterUsername: `@dannwaneri`,
 };
