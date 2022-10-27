@@ -1,7 +1,7 @@
 import React from "react";
 import { graphql } from 'gatsby'
 /**import SEO from "react-seo-component" **/
-import { useSiteMetadata } from "../components/hooks/use-site-metadata";
+// import { useSiteMetadata } from "../components/hooks/use-site-metadata";
 import Layout from "../components/Layout"
 import {
   DivStyle,
@@ -9,7 +9,7 @@ import {
   TemTitle
 } from "../components/Blog/blog.style"
 
-import { SEO } from "../components/seo"
+import  SEO  from "../components/seo"
 
 const  BlogPost  = ({data}) => {
   const post = data.markdownRemark;
@@ -36,15 +36,16 @@ const  BlogPost  = ({data}) => {
 export default  BlogPost 
 
 
-export const Head = ({ data: { markdownRemark: post } }) => {
-  const {
-        siteUrl,
-     } = useSiteMetadata();
+export const Head = ({ data}) => {
+  const post = data.markdownRemark;
+  const siteUrl = data.site.siteMetadata.siteUrl
+  const defaultCanonical = siteUrl + "/blog/" + post.frontmatter.slug
   return (
     <SEO
       title={post.frontmatter.title}
       description={post.frontmatter.description}
-      url= {siteUrl + "/blog/" + post.frontmatter.slug}
+      canonical={defaultCanonical}
+        coverImage={post.frontmatter.coverImage}
     />
   )
 }
@@ -53,12 +54,22 @@ export const Head = ({ data: { markdownRemark: post } }) => {
 
 export const pageQuery = graphql`
   query($id: String!) {
+    site {
+      siteMetadata {
+        title
+        siteUrl
+      }
+    }
     markdownRemark(frontmatter : {slug: { eq: $id }}) {
       frontmatter { 
           title
           description
+          slug
           date(formatString: "MMMM Do, YYYY")
           readTime
+          coverImage {
+            publicURL
+          }
       }
       html
       excerpt

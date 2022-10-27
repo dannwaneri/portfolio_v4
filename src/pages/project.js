@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 /**import SEO from "react-seo-component";**/
 import Layout from '../components/Layout'
 import { useSiteMetadata } from "../components/hooks/use-site-metadata";
-import { SEO } from "../components/seo"
+import  SEO  from "../components/seo"
 
 import {
   ParagraphStyle,
@@ -86,12 +86,20 @@ export default function ProjectPage(props) {
 }
 
 
-export const Head = () => (
-  <SEO title='Project | Daniel Nwaneri ' />
-)
+export const Head = ({data}) => {
+const siteUrl = data.site.siteMetadata.siteUrl
+return(
+  <SEO title='Project' canonical={siteUrl} />
+)}
 
 export const pageQuery = graphql`
   query {
+    site {
+      siteMetadata {
+        title
+        siteUrl
+      }
+    }
     allMongodb21PortfolioprojectProjects{
       edges {
         node {
