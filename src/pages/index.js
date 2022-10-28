@@ -1,9 +1,7 @@
 import React from "react";
-import { graphql } from "gatsby"
-/**import SEO from "react-seo-component";**/
+import { graphql } from "gatsby";
 import Layout from '../components/Layout'
 import Home from "../components/Home/Home.component"
-/**import { useSiteMetadata } from "../components/hooks/use-site-metadata";**/
 import  SEO  from "../components/seo"
 
 export default function HomePage() {

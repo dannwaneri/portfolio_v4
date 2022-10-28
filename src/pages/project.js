@@ -1,9 +1,7 @@
 import React  from "react";
 import {motion} from "framer-motion";
-import { graphql } from "gatsby"
-/**import SEO from "react-seo-component";**/
+import { graphql } from "gatsby";
 import Layout from '../components/Layout'
-import { useSiteMetadata } from "../components/hooks/use-site-metadata";
 import  SEO  from "../components/seo"
 
 import {

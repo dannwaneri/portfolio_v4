@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-import defaultOgImage from "../../content/assets/default-og-image.png"
+// import defaultOgImage from "../../static/generic.png";
 
 
 
@@ -27,13 +27,14 @@ const SEO = ({
             twitterUsername
             siteLanguage
             siteLocale
+            image
           }
         }
       }
     `)
 
     const metaDescription = description || site.siteMetadata.description
-    const ogImage = blogOgImage || coverImage || defaultOgImage
+    const ogImage = blogOgImage || coverImage || site.siteMetadata.image  
     const ogImageUrl = `${site.siteMetadata.siteUrl}${ogImage}`
 
 return (

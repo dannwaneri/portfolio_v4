@@ -8,7 +8,9 @@ require("dotenv").config({
   path: `.env`,
 })
 
-const siteMetadata = {
+
+module.exports = {
+  siteMetadata :{
     title: `Daniel Nwaneri`,
     description: `Daniel Nwaneri is a Backend developer who specializes in JavaScript, Nodejs and  backend web development`,
     lastBuildDate: new Date(Date.now()).toISOString(),
@@ -16,10 +18,8 @@ const siteMetadata = {
     siteLocale: `en_gb`,
     siteUrl: `https://www.danielnwaneri.me/`,
     twitterUsername: `@dannwaneri`,
-};
-
-module.exports = {
-  siteMetadata,
+    image:`static/generic.png`
+},
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-plugin-react-helmet`,
@@ -34,6 +34,13 @@ module.exports = {
       options: {
         name: 'blog',
         path: `${__dirname}/src/blog/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/static`,
+        name: `static`,
       },
     },
     {
@@ -84,7 +91,7 @@ module.exports = {
       background_color: `#ffffff`,
         theme_color: `#ffffff`,
         display: `minimal-ui`,
-      icon: `${__dirname}/src/static/image/favicon-dark.png`
+      icon: `static/favicon-dark.png`
     },
   },
   ],
