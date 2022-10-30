@@ -18,7 +18,7 @@ module.exports = {
     siteLocale: `en_gb`,
     siteUrl: `https://www.danielnwaneri.me/`,
     twitterUsername: `@dannwaneri`,
-    image:`static/generic.png`
+    image:`static/005cefcd4b211f1d91ce75741b6bdf31/generic.png`
 },
   plugins: [
     `gatsby-plugin-image`,
@@ -39,8 +39,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/static`,
-        name: `static`,
+        path: `${__dirname}/content/assets/`,
+        name: 'assets',
       },
     },
     {
@@ -91,7 +91,7 @@ module.exports = {
       background_color: `#ffffff`,
         theme_color: `#ffffff`,
         display: `minimal-ui`,
-      icon: `static/favicon-dark.png`
+      icon: `static/c3412c3d7bf2e80b6fea4e3481b4428c/favicon-dark.png`
     },
   },
   ],
