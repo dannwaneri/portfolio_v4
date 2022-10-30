@@ -16,9 +16,9 @@ module.exports = {
     lastBuildDate: new Date(Date.now()).toISOString(),
     siteLanguage: `en-GB`,
     siteLocale: `en_gb`,
-    siteUrl: `https://www.danielnwaneri.me/`,
+    siteUrl: `https://www.danielnwaneri.me`,
     twitterUsername: `@dannwaneri`,
-    image:`static/005cefcd4b211f1d91ce75741b6bdf31/generic.png`
+    image:`content/assets/generic.png`
 },
   plugins: [
     `gatsby-plugin-image`,

@@ -35,7 +35,7 @@ const SEO = ({
 
     const metaDescription = description || site.siteMetadata.description
     const ogImage = blogOgImage || coverImage || site.siteMetadata.image
-    const ogImageUrl = `${site.siteMetadata.siteUrl}${ogImage}`
+    const ogImageUrl = `${site.siteMetadata.siteUrl}/${ogImage}`
 
 return (
     <Helmet
