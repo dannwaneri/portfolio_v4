@@ -91,7 +91,7 @@ module.exports = {
       background_color: `#ffffff`,
         theme_color: `#ffffff`,
         display: `minimal-ui`,
-      icon: `static/c3412c3d7bf2e80b6fea4e3481b4428c/favicon-dark.png`
+      icon: `content/assets/favicon-dark.png`
     },
   },
   ],
