@@ -33,7 +33,7 @@ const SEO = ({
     `)
 
     const metaDescription = description || site.siteMetadata.description
-    const ogImage = defaultOgImage|| blogOgImage || coverImage 
+    const ogImage = blogOgImage || coverImage ||  defaultOgImage
     const ogImageUrl = `${site.siteMetadata.siteUrl}${ogImage}`
 
 return (
