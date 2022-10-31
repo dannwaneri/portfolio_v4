@@ -18,7 +18,6 @@ module.exports = {
     siteLocale: `en_gb`,
     siteUrl: `https://www.danielnwaneri.me`,
     twitterUsername: `@dannwaneri`,
-    image:`content/assets/generic.png`
 },
   plugins: [
     `gatsby-plugin-image`,
@@ -33,7 +32,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: 'blog',
-        path: `${__dirname}/src/blog/`,
+        path: `${__dirname}/content/blog`,
       },
     },
     {
