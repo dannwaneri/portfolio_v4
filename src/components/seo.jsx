@@ -22,11 +22,10 @@ const SEO = ({
           siteMetadata {
             title
             description
-            lastBuildDate
+            social {
+              twitter
+            }
             siteUrl
-            twitterUsername
-            siteLanguage
-            siteLocale
           }
         }
       }
@@ -70,7 +69,7 @@ return (
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.twitterUsername,
+          content: site.siteMetadata.social.twitter,
         },
         {
           name: `twitter:title`,

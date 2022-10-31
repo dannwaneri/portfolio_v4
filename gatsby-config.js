@@ -12,12 +12,15 @@ require("dotenv").config({
 module.exports = {
   siteMetadata :{
     title: `Daniel Nwaneri`,
+    author: {
+      name: `Daniel Nwaneri`,
+      summary: `who helps developers improve their productivity by sharing pragmatic advice & applicable knowledge on Javascript  and Typescript.`,
+    },
     description: `Daniel Nwaneri is a Backend developer who specializes in JavaScript, Nodejs and  backend web development`,
-    lastBuildDate: new Date(Date.now()).toISOString(),
-    siteLanguage: `en-GB`,
-    siteLocale: `en_gb`,
-    siteUrl: `https://www.danielnwaneri.me`,
-    twitterUsername: `@dannwaneri`,
+    siteUrl: `https://www.danielnwaneri.me/`,
+    social : {
+    twitter: `dannwaneri`,
+    },
 },
   plugins: [
     `gatsby-plugin-image`,
