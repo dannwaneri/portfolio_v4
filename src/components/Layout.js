@@ -8,9 +8,9 @@ import styled from "styled-components";
 const  Layout = ({children}) => {
     
     return (
-    <div className="App">
+    <>
+       <Footer/>
       <GlobalStyles/>
-         <Footer/>
          <motion.main
          initial={{ opacity: 0, x: -200 }}
          animate={{ opacity: 1, x: 0 }}
@@ -26,7 +26,7 @@ const  Layout = ({children}) => {
           {children}
           </Wrapper>
          </motion.main>
-    </div>
+    </>
   )};
 
 export default Layout;
