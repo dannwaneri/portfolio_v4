@@ -1,6 +1,5 @@
 import React from "react";
 import Footer from './footer/footer';
-import {GlobalStyles} from '../global.styles';
 import {motion} from "framer-motion";
 import styled from "styled-components";
 
@@ -10,7 +9,6 @@ const  Layout = ({children}) => {
     return (
     <>
        <Footer/>
-      <GlobalStyles/>
          <motion.main
          initial={{ opacity: 0, x: -200 }}
          animate={{ opacity: 1, x: 0 }}
