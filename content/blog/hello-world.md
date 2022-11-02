@@ -1,7 +1,7 @@
 ---
-title: Hello World
-description: This is my first post,how exciting.
-slug: Hello-world
+title: First Post
+description: Hey, it’s my first blog post
+slug: first-post
 date: 2022-09-17
 readTime: 3
 coverImage: ./cover.jpg
@@ -20,4 +20,4 @@ I am not an expert, but I try to write about things that I know about. This is a
 
 My goal is to become a better Software developer and hopefully make some money doing what I love. If you have any questions or comments, please feel free to leave them below or on my **[Twitter](https://twitter.com/dannwaneri)** handle.
 
-Thanks for reading, and I hope you enjoyed my first blog post!
+Either way, I hope you all enjoy this blog as it evolves into hopefully something much bigger!
