@@ -36,7 +36,7 @@ const Home = () => {
     >
     <NameContainer>Daniel Nwaneri</NameContainer>
     <Title>Backend Developer</Title>
-    <TitleContainer>I am a Backend Developer with ~4 years of primarily backend web development experience. I am an expert in JavaScript and Nodejs, and knowledgeable in much more. I care a lot. In general. I care about the products I work on, the impact of my work, the growth of my teammates, the community and more.</TitleContainer>
+    <TitleContainer>I'm a Backend web developer with around four years of experience. I'm knowledgeable in JavaScript and Nodejs, and have plenty of other skills under my belt. If you're looking for someone to help you with your web development needs, then I'm your man! Feel free to get in touch and I'll be happy to help out. 🙂</TitleContainer>
     </motion.div>
 )};
 export default Home;
