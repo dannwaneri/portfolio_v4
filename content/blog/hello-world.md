@@ -7,17 +7,16 @@ readTime: 3
 coverImage: ./cover.jpg
 ---
 
-Welcome to My first Blog Post. I'm going to be sharing my candid thoughts about Node.js,Typescripts and other interesting things.so if you don't like reading about Node.js and Typescript, then this isn't the blog for you.
+Good day, discerning reader! I'm glad you're here for my first blog post. Please allow me to introduce myself if you are new to this place.
 
 ![Alt text here](./cover.jpg)
 
-I spend a lot of time reading blogs, and I thought it was about time that I started one myself. I don't know how often I'll write new posts, but hopefully once or twice per week. If you want to keep up with my blog, please follow me on **[Twitter](https://twitter.com/dannwaneri)**.
+Daniel Nwaneri is my name, and as you can probably infer from my name, I'm a very sage fellow. 
 
-The goal of this blog is simple: share my knowledge and experience with others who want to learn more about what I do as a developer.
+Additionally, I think of myself as one of the funniest guys around. I can assure you that you, dear blog reader, are in for a tremendous treat.
 
-I will write articles on topics that interest me or are related to my work as a software developer.
-I am not an expert, but I try to write about things that I know about. This is a blog for beginners, so if you are looking for advanced topics then this isn't the place for you.
+Even though I'm a little late to the blogging game, that doesn't mean my ideas aren't wise or intriguing. In fact, I'm confident that you'll find my musings extremely useful.
 
-My goal is to become a better Software developer and hopefully make some money doing what I love. If you have any questions or comments, please feel free to leave them below or on my **[Twitter](https://twitter.com/dannwaneri)** handle.
+It's a bit of a mystery as to why I'm writing this blog piece. I might be doing it for the pleasure of writing, or perhaps I'm just trying to spread my ideas. Who knows, though; perhaps there's something darker going on behind the scenes.
 
-Either way, I hope you all enjoy this blog as it evolves into hopefully something much bigger!
+Whatever the reason may be, one thing is for sure: you're in for a real treat. So sit back, relax, and enjoy the ride!
