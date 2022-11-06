@@ -1,7 +1,7 @@
 ---
-title: First Post
+title: Hello World!
 description: Hey, it’s my first blog post
-slug: first-post
+slug: hello-world
 date: 2022-09-17
 readTime: 3
 coverImage: ./cover.jpg
