@@ -17,7 +17,7 @@ module.exports = {
       summary: `who helps developers improve their productivity by sharing pragmatic advice & applicable knowledge on Javascript  and Typescript.`,
     },
     description: `Daniel Nwaneri is a Backend developer who specializes in JavaScript, Nodejs and  backend web development`,
-    siteUrl: `https://www.danielnwaneri.me/`,
+    siteUrl: `https://www.danielnwaneri.me`,
     social : {
     twitter: `dannwaneri`,
     },
@@ -58,6 +58,17 @@ module.exports = {
             },
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Roboto:400,700`,
+          `san-serif:400,700`,
+          `ubuntu mono:400,700`,
+        ],
+        display: 'swap',
       },
     },
     {

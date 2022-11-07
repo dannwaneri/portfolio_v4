@@ -76,7 +76,7 @@ export const BlogHeader = styled.header`
 
 export const BlogTitle = styled.h3`
 font-size: var(--fontSizes-20);
-font-weight: 500;
+font-weight: 600;
 line-height: 28px;
 color: var(--colors-gray12);
 font-family: var(--fonts-body);

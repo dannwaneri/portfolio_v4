@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const SpanTag = styled.span`
 display: inline-block;
-font-weight: 500;
+font-weight: 700;
 line-height: 28px;
 font-size: var(--fontSizes-14);
 color: var(--colors-gray12);

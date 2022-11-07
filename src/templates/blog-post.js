@@ -39,7 +39,7 @@ export default  BlogPost
 export const Head = ({ data}) => {
   const post = data.markdownRemark;
   const siteUrl = data.site.siteMetadata.siteUrl
-  const defaultCanonical = siteUrl + "blog/" + post.frontmatter.slug
+  const defaultCanonical = siteUrl + "/blog/" + post.frontmatter.slug
   return (
     <SEO
       title={post.frontmatter.title}

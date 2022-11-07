@@ -1,11 +1,20 @@
 import {createGlobalStyle} from 'styled-components';
 
 
+export const theme = {
+    font: {
+      sans:'Roboto, sans-serif',
+      serif: 'serif',
+      monospace: '"Ubuntu Mono", monospace',
+    },
+  }
+
+
 export const GlobalStyles = createGlobalStyle`
 :root{
 -webkit-font-smoothing: antialiased;
---fonts-body: Magnat Text, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
---fonts-head: Magnat Head, serif;
+--fonts-body: ${({ theme }) => theme.font.sans};
+--fonts-head: ${({ theme }) => theme.font.serif};
 --fonts-poster: Magnat Poster, serif;
 --fonts-flexible: Flexible, sans-serif;
 --fonts-mono: Menlo, monospace;
