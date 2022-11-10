@@ -26,8 +26,8 @@ const  Layout = ({children}) => {
     
     return (
     <>
-       <GlobalStyles/>
        <Footer/>
+       <GlobalStyles/>
          <motion.main
 variant={containerVariants}
     initial="hidden"
