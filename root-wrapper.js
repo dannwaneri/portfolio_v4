@@ -6,6 +6,6 @@ import {GlobalStyles,theme} from './src/global.styles';
 export const wrapPageElement = ({element}) => (
   <ThemeProvider theme={theme}>
  <GlobalStyles/>
-  <AnimatePresence mode="wait">{element}</AnimatePresence>
+  <AnimatePresence>{element}</AnimatePresence>
   </ThemeProvider>
 );
