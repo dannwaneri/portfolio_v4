@@ -1,5 +1,4 @@
 import React  from "react";
-import {motion} from "framer-motion";
 import { graphql } from "gatsby";
 import Layout from '../components/Layout'
 import  SEO  from "../components/seo"
@@ -14,26 +13,6 @@ import {
     DottedLine,
     DateWrapper,
 } from '../components/Projects/Project.style';
-
-const containerVariants = {
-  hidden:{
-      opacity: 0,
-  },
-  visible:{
-      opacity: 1,
-      transition:{
-          delay:1.5, duration:1.5
-      }
-  },
-  exit:{
-      x:'-100vw',
-      transition:{
-          ease:'easeInOut'
-      }
-  }
-}
-
-
 
 export default function ProjectPage(props) {
   const projects = props.data.allMongodb21PortfolioprojectProjects.edges;
@@ -57,12 +36,7 @@ export default function ProjectPage(props) {
         twitterUsername={twitterUsername}
   />**/}
    <Layout>
-    <motion.div 
-    variant={containerVariants}
-    initial="hidden"
-    animate="visible"
-    exit="exit"
-    >
+    <div>
     <HeadTag>Projects</HeadTag>
     <ParagraphStyle>
     Internet thingies built with React, Next.js Node.js, and TypeScript.
@@ -77,7 +51,7 @@ export default function ProjectPage(props) {
           </LinkWrapper>
            )}
       </UlStyle>
-</motion.div>
+</div>
     </Layout>
     </>
   );
