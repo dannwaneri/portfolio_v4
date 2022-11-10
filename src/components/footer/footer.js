@@ -1,7 +1,6 @@
 import React,{useState,useEffect} from 'react';
 import Tooltip from '@reach/tooltip';
 import '@reach/tooltip/styles.css';
-import {GlobalStyles} from '../../global.styles';
 import useSound from "use-sound";
 import boopSfx from "../../sounds/switch-off.mp3";
 import { Link } from "gatsby"
@@ -67,8 +66,7 @@ useEffect(() => {
 
 return (
   <>
-  <GlobalStyles/>
-    <FooterContainer>
+<FooterContainer>
       <OptionsContainer>
         <Link  to ="/">
         <Tooltip label="Home"
