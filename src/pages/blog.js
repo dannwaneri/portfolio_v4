@@ -1,6 +1,5 @@
 import React from "react";
 import { graphql } from "gatsby"
-import {motion} from "framer-motion";
 import Layout from '../components/Layout'
 import  SEO  from "../components/seo"
 import {
@@ -13,28 +12,6 @@ import {
     DivStyle,
   DivTag ,
 } from '../components/Blog/blog.style'
-
-
-const containerVariants = {
-  hidden:{
-      opacity: 0,
-  },
-  visible:{
-      opacity: 1,
-      transition:{
-          delay:1.4, duration:1.5
-      }
-  },
-  exit:{
-      x:'-100vw',
-      transition:{
-          ease:'easeInOut'
-      }
-  }
-}
-
-
-
 
 
 export default function BlogPage({data}) {
@@ -59,12 +36,7 @@ export default function BlogPage({data}) {
         twitterUsername={twitterUsername}
   />**/}
    <Layout>
-  <motion.div 
-    variant={containerVariants} 
-    initial="hidden"
-    animate="visible"
-    exit="exit"
-    >
+  <div>
       <DivStyle>
       <DivTag></DivTag>
     <HeadTag>Blog</HeadTag>
@@ -80,7 +52,7 @@ export default function BlogPage({data}) {
           </article>
           )}
   </DivStyle>
-    </motion.div>
+    </div>
   </Layout>
   </>
   );
