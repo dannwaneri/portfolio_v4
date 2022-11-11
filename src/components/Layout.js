@@ -4,23 +4,6 @@ import {motion} from "framer-motion";
 import {GlobalStyles} from '../global.styles';
 import styled from "styled-components";
 
-const containerVariants = {
-    hidden:{
-        opacity: 0,
-    },
-    visible:{
-        opacity: 1,
-        transition:{
-            delay:1.5, duration:1.5
-        }
-    },
-    exit:{
-        x:'-100vw',
-        transition:{
-            ease:'easeInOut'
-        }
-    }
-}
 
 const  Layout = ({children}) => {
     
@@ -29,10 +12,16 @@ const  Layout = ({children}) => {
        <GlobalStyles/>
           <Footer/>
          <motion.main
-variant={containerVariants}
-    initial="hidden"
-    animate="visible"
-    exit="exit">
+initial={{ opacity: 0, x: -200 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: 200 }}
+          transition={{
+            type: "spring",
+            mass: 0.35,
+            stiffness: 75,
+            duration: 0.3
+          }}
+>
           <Wrapper>
 
           {children}
