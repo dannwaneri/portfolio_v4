@@ -61,17 +61,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [
-          `Roboto:400,700`,
-          `san-serif:400,700`,
-          `ubuntu mono:400,700`,
-        ],
-        display: 'swap',
-      },
-    },
-    {
       resolve: `gatsby-source-mongodb`,
       options: {
           dbName: `21-PORTFOLIO-PROJECT`,

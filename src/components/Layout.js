@@ -3,6 +3,7 @@ import Footer from './footer/footer';
 import {motion} from "framer-motion";
 import {GlobalStyles} from '../global.styles';
 import styled from "styled-components";
+import '../../static/fonts/fonts.css'
 
 
 const  Layout = ({children}) => {
@@ -10,7 +11,6 @@ const  Layout = ({children}) => {
     return (
     <>
        <GlobalStyles/>
-          <Footer/>
          <motion.main
 initial={{ opacity: 0, x: -200 }}
           animate={{ opacity: 1, x: 0 }}
@@ -27,6 +27,7 @@ initial={{ opacity: 0, x: -200 }}
           {children}
           </Wrapper>
          </motion.main>
+         <Footer/>
     </>
   )};
 

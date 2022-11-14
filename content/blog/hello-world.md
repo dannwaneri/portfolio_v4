@@ -3,7 +3,7 @@ title: Hello World!
 description: Hey, it’s my first blog post
 slug: hello-world
 date: 2022-09-17
-readTime: 3
+readTime: 2
 coverImage: ./cover.jpg
 ---
 
@@ -11,7 +11,7 @@ Good day, discerning reader! I'm glad you're here for my first blog post. Please
 
 ![Alt text here](./cover.jpg)
 
-Daniel Nwaneri is my name, and as you can probably infer from my name, I'm a very sage fellow. 
+Daniel Nwaneri is my name, and as you can probably infer from my name, I'm a very sage fellow.
 
 Additionally, I think of myself as one of the funniest guys around. I can assure you that you, dear blog reader, are in for a tremendous treat.
 

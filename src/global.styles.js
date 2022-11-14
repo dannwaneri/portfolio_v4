@@ -1,20 +1,14 @@
 import {createGlobalStyle} from 'styled-components';
 
 
-export const theme = {
-    font: {
-      sans:'Roboto, sans-serif',
-      serif: 'serif',
-      monospace: '"Ubuntu Mono", monospace',
-    },
-  }
 
 
 export const GlobalStyles = createGlobalStyle`
+
 :root{
 -webkit-font-smoothing: antialiased;
---fonts-body: ${({ theme }) => theme.font.sans};
---fonts-head: ${({ theme }) => theme.font.serif};
+--fonts-body:Magnat Text;
+--fonts-head: Magnat Head;
 --fonts-poster: Magnat Poster, serif;
 --fonts-flexible: Flexible, sans-serif;
 --fonts-mono: Menlo, monospace;
@@ -160,7 +154,7 @@ a {
 }
 body {
     background: var(--colors-gray1);
-    font-family: "Magnat Text";
+    font-family: Magnat Text;
 }
 hr{
     margin: 0px 4px;

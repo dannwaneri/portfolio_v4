@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Magnat Text' ;
+    src: local('Magnat Text'), url(./MagnatText-Medium.otf)  format("otf");
+  }
+
+  @font-face {
+    font-family: 'Magnat Text' ;
+    font-style: italic;
+    src: local('Magnat Text'), url(./MagnatText-MediumItalic.otf)  format("otf");
+  }
+
+
+  @font-face {
+    font-family: 'Magnat Text' ;
+    src: local('Magnat Text'), url(./MagnatText-Regular.otf)  format("otf");
+  }
+  
+
+
+  @font-face {
+    font-family: 'Magnat Head' ;
+    src: local('Magnat Head'), url(./MagnatHead-Semibold.otf)  format("otf");
+  }
