@@ -3,7 +3,6 @@ import Footer from './footer/footer';
 import {motion} from "framer-motion";
 import {GlobalStyles} from '../global.styles';
 import styled from "styled-components";
-import '../../static/fonts/fonts.css'
 
 
 const  Layout = ({children}) => {

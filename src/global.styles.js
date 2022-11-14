@@ -5,10 +5,55 @@ import {createGlobalStyle} from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
 
+  @font-face{
+    font-family:Magnat Poster;
+    font-weight:600;
+    font-display:swap;
+    src:url(/MagnatPoster-Semibold.otf) format("opentype")
+}
+
+@font-face{
+    font-family:Magnat Head;
+    font-weight:600;
+    font-display:swap;
+    src:url(/MagnatHead-Semibold.otf) format("opentype")
+}
+
+@font-face{
+    font-family:Magnat Text;
+    font-weight:400;
+    font-display:swap;
+    src:url(/MagnatText-Regular.otf) format("opentype")}
+
+
+    @font-face{
+        font-family:Magnat Text;
+        font-weight:500;
+        font-display:swap;
+        src:url(/MagnatText-Medium.otf) format("opentype")
+    }
+
+    @font-face{
+        font-family:Magnat Text;
+        font-weight:500;
+        font-display:swap;
+        font-style:italic;
+        src:url(/MagnatText-MediumItalic.otf) format("opentype")
+    }  
+
+@font-face{
+    font-family:Magnat Text;
+    font-weight:400;
+    font-display:swap;
+    font-style:italic;
+    src:url(/MagnatText-RegularItalic.otf) format("opentype")
+}
+
 :root{
 -webkit-font-smoothing: antialiased;
---fonts-body:Magnat Text;
---fonts-head: Magnat Head;
+--fonts-body:'Magnat Text',--apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+    Droid Sans, Helvetica Neue, sans-serif;
+--fonts-head: 'Magnat Head',serif;
 --fonts-poster: Magnat Poster, serif;
 --fonts-flexible: Flexible, sans-serif;
 --fonts-mono: Menlo, monospace;
@@ -154,7 +199,7 @@ a {
 }
 body {
     background: var(--colors-gray1);
-    font-family: Magnat Text;
+    font-family: 'Magnat Text';
 }
 hr{
     margin: 0px 4px;
