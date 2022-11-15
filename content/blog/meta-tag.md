@@ -1,7 +1,7 @@
 ---
 title: Productivity hack
 description:  Get a head start on your day with this productivity hack.
-slug: productivity-trick
+slug: productivity-hack
 readTime: 1
 date: 2022-09-28
 ---
