@@ -7,7 +7,7 @@ color: var(--colors-gray12);
 font-weight: 700;
 line-height: var(--lineHeights-24);
 font-size: var(--fontSizes-24);
-font-family: var(--fonts-serif);
+font-family: var(--fonts-head);
 
 `;
 

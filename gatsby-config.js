@@ -24,13 +24,13 @@ module.exports = {
 },
   plugins: [
     `gatsby-plugin-image`,
+    `babel-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-mdx`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-slug`,
-    `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -83,6 +83,12 @@ module.exports = {
           },
           preserveObjectIds: true,
       }
+  },
+  {
+    resolve: `gatsby-plugin-styled-components`,
+    options: {
+      displayName: false
+    },
   },
   {
     resolve: `gatsby-plugin-manifest`,
