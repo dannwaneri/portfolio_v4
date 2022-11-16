@@ -27,7 +27,6 @@ export const FooterContainer = styled.footer`
     @media (max-width: 720px) {
     width: calc(100% - 64px);
 }
-}
 `;
 
 
