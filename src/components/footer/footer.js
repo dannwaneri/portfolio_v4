@@ -5,7 +5,7 @@ import useSound from "use-sound";
 import boopSfx from "../../sounds/switch-off.mp3";
 import { Link } from "gatsby"
 import {motion} from "framer-motion";
-import { FooterContainer,OptionsContainer } from "./footer.styles";
+/**import { FooterContainer,OptionsContainer } from "./footer.styles";**/
 
 
 const variants = {
@@ -66,8 +66,8 @@ useEffect(() => {
 
 return (
   <>
-<FooterContainer>
-      <OptionsContainer>
+<footer>
+      <div className="options-container">
         <Link  to ="/">
         <Tooltip label="Home"
         style={{
@@ -233,8 +233,8 @@ return (
 
       </motion.button>
       </Tooltip>
-      </OptionsContainer>
-      </FooterContainer>
+      </div>
+      </footer>
       </>
 )
 }

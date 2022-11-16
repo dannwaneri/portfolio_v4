@@ -5,27 +5,8 @@ import Home from "../components/Home/Home.component"
 import  SEO  from "../components/seo"
 
 export default function HomePage() {
-  /**const {
-        title,
-        description,
-        siteUrl,
-       siteLanguage,
-        siteLocale,
-        twitterUsername,
-        image
-      } = useSiteMetadata();**/
   return (
     <>
-    {/**<SEO
-        title={`Home`}
-        titleTemplate={title}
-       description={description}
-        pathname={siteUrl}
-        siteLanguage={siteLanguage}
-        siteLocale={siteLocale}
-        twitterUsername={twitterUsername}
-        image={image}
-  />**/}
    <Layout>
     <Home/>
     </Layout>
