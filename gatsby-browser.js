@@ -1,10 +1,3 @@
-import React from 'react';
-import {AnimatePresence} from 'framer-motion';
-import {GlobalStyles} from './src/global.styles';
+import {wrapPageElement as wrap} from './root-wrapper';
 
-export const wrapPageElement = ({element}) => (
-  <>
- <GlobalStyles/>
-  <AnimatePresence mode="wait">{element}</AnimatePresence>
-  </>
-);
+export const wrapPageElement = wrap;
