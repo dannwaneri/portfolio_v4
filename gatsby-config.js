@@ -26,6 +26,7 @@ module.exports = {
     `gatsby-plugin-image`,
     `babel-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-mdx`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
@@ -36,8 +37,8 @@ module.exports = {
       options: {
         name: 'blog',
         path: `${__dirname}/content/blog`,
-      },
-    },
+      }
+},
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -85,12 +86,6 @@ module.exports = {
       }
   },
   {
-    resolve: `gatsby-plugin-styled-components`,
-    options: {
-      displayName: false
-    },
-  },
-  {
     resolve: `gatsby-plugin-manifest`,
     options: {
       name: `Daniel Nwaneri`,
@@ -102,5 +97,5 @@ module.exports = {
       icon: `content/assets/favicon-dark.png`
     },
   },
-  ],
+],
 }
