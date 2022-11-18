@@ -21,4 +21,6 @@ It's a bit of a mystery as to why I'm writing this blog piece. I might be doing 
 Whatever the reason may be, one thing is for sure: you're in for a real treat. 
 
 
-There's something therapeutic about writing, though. It's a way to get all of my thoughts and feelings out there without having to say them aloud. That can be difficult for me, so this is definitely a good outlet.I also like the idea of sharing my ideas with others. It's always nice to know that someone else might be reading what I have to say and agreeing with me (or at least thinking that I'm not totally crazy). So, if you're out there reading this, thank you!
+There's something therapeutic about writing, though. It's a way to get all of my thoughts and feelings out there without having to say them aloud. That can be difficult for me, so this is definitely a good outlet.I also like the idea of sharing my ideas with others. 
+
+It's always nice to know that someone else might be reading what I have to say and agreeing with me (or at least thinking that I'm not totally crazy). So, if you're out there reading this, thank you!
