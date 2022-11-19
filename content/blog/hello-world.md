@@ -7,9 +7,12 @@ readTime: 2
 coverImage: ./cover.jpg
 ---
 
+![Alt text here](./cover.jpg)
+
+
 Good day, discerning reader! I'm glad you're here for my first blog post. Please allow me to introduce myself if you are new to this place.
 
-![Alt text here](./cover.jpg)
+
 
 Daniel is my name, and as you can probably infer from my name, I'm a very sage fellow.
 
