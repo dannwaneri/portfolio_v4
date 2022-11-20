@@ -1,5 +1,5 @@
 ---
-title: Hello World!
+title: Hello, World!
 description: Hey, it’s my first blog post
 slug: hello-world
 date: 2022-09-17
