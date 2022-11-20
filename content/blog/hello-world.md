@@ -8,6 +8,7 @@ coverImage: ./cover.jpg
 ---
 
 ![Alt text here](./cover.jpg)
+[Photo from MicroStockHub](https://www.istockphoto.com/)
 
 
 Good day, discerning reader! I'm glad you're here for my first blog post. Please allow me to introduce myself if you are new to this place.
