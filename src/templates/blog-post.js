@@ -23,7 +23,7 @@ const  BlogPost  = ({data}) => {
                 {post.frontmatter.title}
             </TemTitle>
             <p style={{opacity: 0.5,marginTop:-0.5}}>
-            Published <span>{post.frontmatter.date}</span>    <span>{post.frontmatter.readTime}min read</span>
+            Published <span>{post.frontmatter.date}</span>-<span>{post.frontmatter.readTime}min read</span>
           </p>
           </header>
           {/**<TemDes>{post.frontmatter.description}</TemDes>**/}
