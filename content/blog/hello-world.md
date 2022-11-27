@@ -17,14 +17,10 @@ Good day, discerning reader! I'm glad you're here for my first blog post. Please
 
 Daniel is my name, and as you can probably infer from my name, I'm a very sage fellow.
 
-Additionally, I think of myself as one of the funniest guys around. I can assure you that you, dear blog reader, are in for a tremendous treat.
+I'm a backend developer with a lot of experience with JavaScript. I've used JavaScript across the stack to create projects and run this blog. Right now, I'm dealing with Node.js, React, and Typescript issues while keeping an eye on API development and reliability. 
 
-Even though I'm a little late to the blogging game, that doesn't mean my ideas aren't wise or intriguing. In fact, I'm confident that you'll find my musings extremely useful.
+My goal is to help developers spend less time searching through documentation/Stack Overflow/GitHub Issues/source code and more time solving business problems. 
 
-It's a bit of a mystery as to why I'm writing this blog piece. I might be doing it for the pleasure of writing, or perhaps I'm just trying to spread my ideas. Who knows, though; perhaps there's something darker going on behind the scenes.
-Whatever the reason may be, one thing is for sure: you're in for a real treat. 
+I plan on writing on this blog for a long time. Topics that interest me most come and go, but there's never been a shortage of things I'm excited to write about. I'm often exhilarated with thoughts about backend programming, development and design. 
 
-
-There's something therapeutic about writing, though. It's a way to get all of my thoughts and feelings out there without having to say them aloud. That can be difficult for me, so this is definitely a good outlet.I also like the idea of sharing my ideas with others. 
-
-It's always nice to know that someone else might be reading what I have to say and agreeing with me (or at least thinking that I'm not totally crazy). So, if you're out there reading this, thank you!
+There are so many subjects in those areas that need my commentary, my analysis and maybe even my sympathy. That's on top of the more 'traditional' topics that still give me pause and inspire thoughtful discussion. Pull up a chair - it's time to learn some new things!
