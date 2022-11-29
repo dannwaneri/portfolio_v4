@@ -25,7 +25,9 @@ I’m always looking for ways to improve things and make them more efficient.I�
 
 This can sometimes be a problem when working on projects with others, as I can be quite inflexible about changes.Overall, I’m quiet, introspective and detail-oriented – characteristics that have helped me succeed in my career.
 
+
 ## What am I doing here?
+
 I found out that a lot of cool guys in IT have personal blogs where they write articles about things they enjoy. I want to be as cool as they are, too. That's why I wanted a place to post my thoughts, experiences, and all the other stuff that is on my mind.
 
 I've been writing for a while now, but I never had a good outlet for my work. It's nice to finally have a place to share it with others. I hope you enjoy reading my blog as much as I enjoy writing it!
