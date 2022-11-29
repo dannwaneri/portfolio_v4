@@ -1,9 +1,9 @@
 ---
-title: Hello World!
+title: Who am I?
 description: Welcome to my first blog post!
-slug: hello-world
+slug: who-am-i
 date: 2022-09-17
-readTime: 2
+readTime: 1
 coverImage: ./cover.jpg
 ---
 
@@ -11,16 +11,15 @@ coverImage: ./cover.jpg
 [Photo from MicroStockHub](https://www.istockphoto.com/)
 
 
-Good day, discerning reader! I'm glad you're here for my first blog post. Please allow me to introduce myself if you are new to this place.
+Good day, discerning reader! I'm glad you're here for my first blog post. Please allow me to introduce myself if you are new to this place. 
 
+My name is Daniel, and as you can probably infer from my name, I'm a very sage fellow. I could tell you a long, boring story about how I decided to become a backend developer and how I got into IT in the first place, but who likes long, boring stories? Personally, I do not.
 
+I am a backend developer from Nigeria, and it's not nearly as small or insignificant as some people might think. 
 
-Daniel is my name, and as you can probably infer from my name, I'm a very sage fellow.
+I found out that a lot of cool guys in IT have personal blogs where they write articles about things they enjoy. I want to be as cool as they are, too! 
 
-I'm a backend developer with a lot of experience with JavaScript. I've used JavaScript across the stack to create projects and run this blog. Right now, I'm dealing with Node.js, React, and Typescript issues while keeping an eye on API development and reliability. 
+That's why I wanted a place to post my thoughts, experiences, and all the other stuff that is on my mind.
 
 My goal is to help developers spend less time searching through documentation/Stack Overflow/GitHub Issues/source code and more time solving business problems. 
 
-I plan on writing on this blog for a long time. Topics that interest me most come and go, but there's never been a shortage of things I'm excited to write about. I'm often exhilarated with thoughts about backend programming, development and design. 
-
-There are so many subjects in those areas that need my commentary, my analysis and maybe even my sympathy. That's on top of the more 'traditional' topics that still give me pause and inspire thoughtful discussion. Pull up a chair - it's time to learn some new things!
