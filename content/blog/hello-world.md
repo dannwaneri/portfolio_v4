@@ -19,6 +19,12 @@ I am a backend developer from Nigeria, and it's not nearly as small or insignifi
 
 So when I tell people that I'm from Nigeria, I often get surprised reactions. But I'm proud to be from such a vibrant and growing country. And I believe that our best days are still ahead of us.
 
+If I had to describe myself, which I do have to do at this moment, I would say that I’m an analytical thinker - I like to take things apart and understand how they work. This has served me well in my career as a backend developer.
+
+I’m always looking for ways to improve things and make them more efficient.I’m also a bit of a perfectionist. I want things to be just right and I can be quite obsessive about details. 
+
+This can sometimes be a problem when working on projects with others, as I can be quite inflexible about changes.Overall, I’m quiet, introspective and detail-oriented – characteristics that have helped me succeed in my career.
+
 I found out that a lot of cool guys in IT have personal blogs where they write articles about things they enjoy. I want to be as cool as they are, too. That's why I wanted a place to post my thoughts, experiences, and all the other stuff that is on my mind.
 
 I've been writing for a while now, but I never had a good outlet for my work. It's nice to finally have a place to share it with others. I hope you enjoy reading my blog as much as I enjoy writing it!
