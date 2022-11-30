@@ -39,7 +39,7 @@ export default  BlogPost
 export const Head = ({ data}) => {
   const post = data.markdownRemark;
   const siteUrl = data.site.siteMetadata.siteUrl
-  const defaultCanonical = siteUrl + "/blog/" + post.frontmatter.slug
+  const defaultCanonical =`${siteUrl}/blog/${post.frontmatter.slug}/`
   return (
     <SEO
       title={post.frontmatter.title}
@@ -53,24 +53,26 @@ export const Head = ({ data}) => {
 
 
 export const pageQuery = graphql`
-  query($id: String!) {
+  query($slug: String!) {
     site {
       siteMetadata {
         title
         siteUrl
       }
     }
-    markdownRemark(frontmatter : {slug: { eq: $id }}) {
+    markdownRemark(fields: { slug: { eq: $slug } }) {
       frontmatter { 
           title
           description
           slug
+          published
           date(formatString: "MMM Do, YYYY")
           readTime
           coverImage {
             publicURL
           }
       }
+      id
       html
       excerpt
     }

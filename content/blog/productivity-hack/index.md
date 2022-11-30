@@ -4,6 +4,7 @@ description:  Get a head start on your day with this productivity hack.
 slug: productivity-hack
 readTime: 3
 date: 2022-09-28
+published: true
 ---
 
 

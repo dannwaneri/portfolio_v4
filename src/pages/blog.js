@@ -15,7 +15,7 @@ import {
 
 
 export default function BlogPage({data}) {
-  const posts = data.posts.edges;
+  const posts = data.allMarkdownRemark.edges
   return (
     <>
    <Layout>
@@ -24,12 +24,12 @@ export default function BlogPage({data}) {
       <DivTag></DivTag>
     <HeadTag>Blog</HeadTag>
     <ParagraphStyle>A collection of my somewhat (un)organized musings.</ParagraphStyle>
-    {posts.map(post =>
-          <article key={post.node.frontmatter.slug}>
-          <StyledLink  to={"/blog/" + post.node.frontmatter.slug}>
+    {posts.map(({ node }) =>
+          <article key={node.fields.slug}>
+          <StyledLink  to={node.fields.slug}>
           <BlogHeader>
-            <BlogTitle>{post.node.frontmatter.title}</BlogTitle>
-            <BlogDes>{post.node.frontmatter.description}</BlogDes>
+            <BlogTitle>{node.frontmatter.title}</BlogTitle>
+            <BlogDes>{node.frontmatter.description}</BlogDes>
           </BlogHeader>
           </StyledLink>
           </article>
@@ -55,13 +55,22 @@ query MyQuery {
       siteUrl
     }
   }
- posts: allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
+  allMarkdownRemark(
+    sort: { fields: [frontmatter___date], order: DESC }
+    filter: {
+      frontmatter: { published: { eq: true }, newsletter: { ne: true } }
+    }
+  ) {
     edges {
       node {
+        excerpt
+        fields {
+          slug
+        }
         frontmatter {
           title
-          slug
           description
+          published
         }
       }
     }

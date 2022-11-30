@@ -3,15 +3,12 @@ title: Who am I?
 description: Welcome to my first blog post!
 slug: who-am-i
 date: 2022-09-17
-readTime: 1
+readTime: 3
 coverImage: ./cover.jpg
+published: true
 ---
 
-![Alt text here](./cover.jpg)
-[Photo from MicroStockHub](https://www.istockphoto.com/)
-
-
-Good day, discerning reader! I'm glad you're here for my first blog post. Please allow me to introduce myself if you are new to this place. 
+Good day, discerning reader! I'm glad you're here for my first blog post. Please allow me to introduce myself if you are new to this place.
 
 My name is Daniel, and as you can probably infer from my name, I'm a very sage fellow. I could tell you a long, boring story about how I decided to become a backend developer and how I got into IT in the first place, but who likes long, boring stories? Personally, I do not.
 
@@ -21,7 +18,7 @@ So when I tell people that I'm from Nigeria, I often get surprised reactions. Bu
 
 If I had to describe myself, which I do have to do at this moment, I would say that I’m an analytical thinker - I like to take things apart and understand how they work. This has served me well in my career as a backend developer.
 
-I’m always looking for ways to improve things and make them more efficient.I’m also a bit of a perfectionist. I want things to be just right and I can be quite obsessive about details. 
+I’m always looking for ways to improve things and make them more efficient.I’m also a bit of a perfectionist. I want things to be just right and I can be quite obsessive about details.
 
 This can sometimes be a problem when working on projects with others, as I can be quite inflexible about changes.Overall, I’m quiet, introspective and detail-oriented – characteristics that have helped me succeed in my career.
 
