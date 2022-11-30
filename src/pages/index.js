@@ -4,23 +4,17 @@ import Layout from '../components/Layout'
 import Home from "../components/Home/Home.component"
 import  SEO  from "../components/seo"
 
-export default function HomePage() {
+export default function HomePage({data}) {
+  const siteUrl = data.site.siteMetadata.siteUrl
   return (
     <>
    <Layout>
+   <SEO title='Home' canonical={siteUrl} />
     <Home/>
     </Layout>
     </>
   );
 }
-
-
-export const Head = ({data}) => {
-  const siteUrl = data.site.siteMetadata.siteUrl
-  return (
-  <SEO title='Home' canonical={siteUrl} />
-)}
-
 
 
 export const pageQuery = graphql`

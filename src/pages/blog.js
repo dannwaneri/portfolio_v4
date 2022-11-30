@@ -16,25 +16,8 @@ import {
 
 export default function BlogPage({data}) {
   const posts = data.posts.edges;
- /**  const {
-    title,
-    description,
-    siteUrl,
-   siteLanguage,
-    siteLocale,
-    twitterUsername,
-  } = useSiteMetadata();**/
   return (
     <>
-    {/**<SEO
-        title={`blogs`}
-        titleTemplate={title}
-       description={description}
-        pathname={siteUrl}
-        siteLanguage={siteLanguage}
-        siteLocale={siteLocale}
-        twitterUsername={twitterUsername}
-  />**/}
    <Layout>
   <div>
       <DivStyle>

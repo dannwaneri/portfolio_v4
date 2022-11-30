@@ -65,7 +65,7 @@ export const pageQuery = graphql`
           title
           description
           slug
-          date(formatString: "MMMM Do, YYYY")
+          date(formatString: "MMM Do, YYYY")
           readTime
           coverImage {
             publicURL

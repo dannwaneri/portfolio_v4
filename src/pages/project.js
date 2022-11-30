@@ -16,25 +16,8 @@ import {
 
 export default function ProjectPage(props) {
   const projects = props.data.allMongodb21PortfolioprojectProjects.edges;
-  /**const {
-    title,
-    description,
-    siteUrl,
-   siteLanguage,
-    siteLocale,
-    twitterUsername,
-  } = useSiteMetadata();**/
   return (
     <>
-    {/**<SEO
-        title={`Projects`}
-        titleTemplate={title}
-       description={description}
-        pathname={siteUrl}
-        siteLanguage={siteLanguage}
-        siteLocale={siteLocale}
-        twitterUsername={twitterUsername}
-  />**/}
    <Layout>
     <div>
     <HeadTag>Projects</HeadTag>
