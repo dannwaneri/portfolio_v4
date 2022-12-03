@@ -22,7 +22,7 @@ export default function ProjectPage(props) {
     <div>
     <HeadTag>Projects</HeadTag>
     <ParagraphStyle>
-    Internet thingies built with React, Next.js Node.js, and TypeScript.
+    Internet contraptions constructed with React, Next.js Node.js, and TypeScript.
 </ParagraphStyle>
 <UlStyle>
 {projects.map(projects =>
