@@ -23,7 +23,7 @@ export default function BlogPage({data}) {
       <DivStyle>
       <DivTag></DivTag>
     <HeadTag>Blog</HeadTag>
-    <ParagraphStyle>A collection of my somewhat (un)organized musings.</ParagraphStyle>
+    <ParagraphStyle>: A compendium of my rather haphazard reflections.</ParagraphStyle>
     {posts.map(({ node }) =>
           <article key={node.fields.slug}>
           <StyledLink  to={node.fields.slug}>
