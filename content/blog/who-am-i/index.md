@@ -8,20 +8,22 @@ coverImage: ./cover.jpg
 published: true
 ---
 
-Good day, discerning reader! I'm glad you're here for my first blog post. Please allow me to introduce myself if you are new to this place.
+Greetings, esteemed reader.I am glad you have arrived for my inaugural blog post. Allow me to introduce myself, in case you are a recent acquaintance of mine. 
 
-My name is Daniel, and as you can probably infer from my name, I'm a very sage fellow. I could tell you a long, boring story about how I decided to become a backend developer and how I got into IT in the first place, but who likes long, boring stories? Personally, I do not.
+My name is Daniel, and as one might correctly guess from my appellation, I am rather savvy. I could tell you a long, tedious tale detailing how I chose to pursue the career paths of a backend developer and become involved with IT, however I do not believe that will be a pleasant experience for either of us.
 
-I am a backend developer from Nigeria, and it's not nearly as small or insignificant as some people might think. Our country is home to over 190 million people, making us the most populous nation in Africa and the 7th most populous in the world. We are also the largest economy in Africa, with a GDP of over $500 billion.
+I come from Nigeria - a country often misjudged as miniscule and insignificant. You would be shocked to discover that over 190 million individuals call Nigeria home, thus making us the most populous nation in Africa and the seventh most populous in the world.
 
-So when I tell people that I'm from Nigeria, I often get surprised reactions. But I'm proud to be from such a vibrant and growing country. And I believe that our best days are still ahead of us.
+So when I mention that I'm Nigerian, I often receive expressions of surprise. Notwithstanding, I take great pride in having been birthed in such a stimulating and blooming country.
 
-If I had to describe myself, which I do have to do at this moment, I would say that I’m an analytical thinker - I like to take things apart and understand how they work. This has served me well in my career as a backend developer.
+Were I to describe myself - as I am presently required to, I would say that I think analytically; I enjoy getting to the bottom of issues and comprehending how they function. This criterion has greatly aided me in my occupation as a backend developer. 
 
-I’m always looking for ways to improve things and make them more efficient.I’m also a bit of a perfectionist. I want things to be just right and I can be quite obsessive about details.
+Continually, I am on the lookout for methods of advancement and productivity. Moreover, I am rather meticulous and maintain high standards; I want everything to be accurate and can become quite preoccupied with minute details.
 
-This can sometimes be a problem when working on projects with others, as I can be quite inflexible about changes.Overall, I’m quiet, introspective and detail-oriented – characteristics that have helped me succeed in my career.
+I take a logical and simple approach to web development, without superfluous features and without detracting from the excited enthusiasm that lies beneath the product. 
 
-I found out that a lot of cool guys in IT have personal blogs where they write articles about things they enjoy. I want to be as cool as they are, too. That's why I wanted a place to post my thoughts, experiences, and all the other stuff that is on my mind.
+Not that I don't admire a decent presentation - though to be honest, I'm likely to appreciate it a little less than most - but if you're trying to spruce up something shoddy, it will still remain shoddy at heart.
 
-I've been writing for a while now, but I never had a good outlet for my work. It's nice to finally have a place to share it with others. I hope you enjoy reading my blog as much as I enjoy writing it!
+My motto is simple: always leave things in a better state than when you first found them. Whether it's becoming a better person or improving something as simple as a website, there is always room for improvement. By following this mantra and making continuous improvements, I strive to make the world a better place.
+
+I am passionate about learning and improving my web development skills. I invite others to join me in this journey of growth, and I hope that this blog will provide useful insight into the ways in which I have been able to do so. I am confident that the methods I have employed will help you on your own path of progress.
