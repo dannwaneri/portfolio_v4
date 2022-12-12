@@ -26,7 +26,7 @@ export default function BlogPage({data}) {
     <ParagraphStyle>A compendium of my rather haphazard reflections.</ParagraphStyle>
     {posts.map(({ node }) =>
           <article key={node.fields.slug}>
-          <StyledLink  to={node.fields.slug}>
+          <StyledLink  to=`/blog${node.fields.slug}`,>
           <BlogHeader>
             <BlogTitle>{node.frontmatter.title}</BlogTitle>
             <BlogDes>{node.frontmatter.description}</BlogDes>
