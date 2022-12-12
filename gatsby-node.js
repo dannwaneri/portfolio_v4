@@ -53,7 +53,7 @@ publishedPosts.forEach((post, index) => {
 
 unpublishedPosts.forEach((post) => {
   createPage({
-    path: /blog${post.node.fields.slug},
+    path: `/blog${post.node.fields.slug}`,
     component: blogPost,
     context: {
       slug: post.node.fields.slug,
