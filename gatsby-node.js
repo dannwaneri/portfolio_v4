@@ -41,7 +41,7 @@ publishedPosts.forEach((post, index) => {
   const next = index === 0 ? null : publishedPosts[index - 1].node
 
   createPage({
-    path: post.node.fields.slug,
+    path: `/blog${node.fields.slug}`,
     component: blogPost,
     context: {
       slug: post.node.fields.slug,
@@ -53,7 +53,7 @@ publishedPosts.forEach((post, index) => {
 
 unpublishedPosts.forEach((post) => {
   createPage({
-    path: post.node.fields.slug,
+    path: /blog${node.fields.slug},
     component: blogPost,
     context: {
       slug: post.node.fields.slug,
