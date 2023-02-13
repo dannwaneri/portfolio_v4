@@ -212,12 +212,7 @@ hr{
     background: var(--colors-gray4);
     flex-shrink: 0; 
 }
-svg{
-    width: 50%;
-    height: 50%;
-    pointer-events: none;
-    transform-origin: unset !important;
-}
+
 button{
     cursor: pointer;
     flex-shrink: 0;
@@ -237,8 +232,38 @@ button{
     color: var(--colors-gray10);
     width: 48px;
     height: 48px;
+    transition: transform .2s;
+    -webkit-tap-highlight-color: transparent;
     ---focusColor: var(--colors-gray7);
+    --gradient-color-1: var(--colors-gray2);
+    --gradient-color-2: var(--colors-gray5);
+    &:hover {
+        transform: rotateY(35deg) scale(1.5);
+    }
+    & > svg{
+    width: 50%;
+    height: 50%;
+    pointer-events: none;
+    transform-origin: center center;
+[data-theme='dark'] & {
+& > .sun{
+    r:9
 }
+ & > .sun-beams{
+    opacity:0;
+ }
+
+& > .moon > circle {
+    cx:50%;
+    cy:23%;
+}
+}
+
+}
+}
+
+
+
 main{
    display: flex;
     flex-direction: column;
@@ -289,6 +314,9 @@ footer{
     overflow: auto hidden;
 }    
 }
+
+
+
 `;
 
 
