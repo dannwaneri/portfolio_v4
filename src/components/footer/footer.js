@@ -155,9 +155,9 @@ return (
         </a>
       <hr/>
       <button
-      title="Toggle theme"
+      title="Toggles light & dark"
       aria-label="auto"
-      aria-live="assertive"
+      aria-live="polite"
       onClick={() =>{
         isClicked ? play():stop();setTheme(nextTheme)}}>
         <svg  width="48" height="48" viewBox="0 0 24 24" color="var(--colors-gray10)" fill="none" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor">
